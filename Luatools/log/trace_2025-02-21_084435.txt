@@ -1,0 +1,784 @@
+[2025-02-21 08:44:35.663] ATI
+[2025-02-21 08:44:35.663] 
+[2025-02-21 08:44:35.663] LuatOS-Air_V4029_RDA8910_RFTIPMSTSVT_0x70000
+[2025-02-21 08:44:35.663] 
+[2025-02-21 08:44:35.663] OK
+[2025-02-21 08:44:35.788] AT+CGSN
+[2025-02-21 08:44:35.788] 
+[2025-02-21 08:44:35.788] 863013073558115
+[2025-02-21 08:44:35.788] 
+[2025-02-21 08:44:35.788] OK
+[2025-02-21 08:44:44.118] [I]-[ril.sendat] AT+CNMI=2,1,0,0,0
+[2025-02-21 08:44:44.119] [I]-[ril.proatc] OK
+[2025-02-21 08:44:44.119] [I]-[ril.defrsp] AT+CNMI=2,1,0,0,0 true OK nil
+[2025-02-21 08:45:14.218] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:45:14.218] [I]-[ril.proatc] +RFTEMPERATURE: 30.07
+[2025-02-21 08:45:14.218] [I]-[ril.proatc] OK
+[2025-02-21 08:45:14.218] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:45:14.222] [I]-[ril.proatc] +CSQ: 25,99
+[2025-02-21 08:45:14.222] [I]-[ril.proatc] OK
+[2025-02-21 08:45:14.222] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:45:14.282] [I]-[ril.proatc] +CESQ: 99,99,255,255,21,53
+[2025-02-21 08:45:14.282] [I]-[ril.proatc] OK
+[2025-02-21 08:46:14.191] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:46:14.197] [I]-[ril.proatc] +RFTEMPERATURE: 30.69
+[2025-02-21 08:46:14.197] [I]-[ril.proatc] OK
+[2025-02-21 08:46:14.197] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:46:14.270] [I]-[ril.proatc] +CSQ: 25,99
+[2025-02-21 08:46:14.270] [I]-[ril.proatc] OK
+[2025-02-21 08:46:14.270] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:46:14.282] [I]-[ril.proatc] +CESQ: 99,99,255,255,21,53
+[2025-02-21 08:46:14.282] [I]-[ril.proatc] OK
+[2025-02-21 08:47:14.183] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:47:14.190] [I]-[ril.proatc] +RFTEMPERATURE: 31.16
+[2025-02-21 08:47:14.190] [I]-[ril.proatc] OK
+[2025-02-21 08:47:14.190] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:47:14.262] [I]-[ril.proatc] +CSQ: 25,99
+[2025-02-21 08:47:14.262] [I]-[ril.proatc] OK
+[2025-02-21 08:47:14.262] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:47:14.268] [I]-[ril.proatc] +CESQ: 99,99,255,255,21,52
+[2025-02-21 08:47:14.268] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.385] [I]-[poweron reason:] 3 air724ug-forwarder 1.0.0 2.4.3 LuatOS-Air_V4029_RDA8910_RFTIPMSTSVT_0x70000
+[2025-02-21 08:47:36.385] [I]-[core build time] Apr 24 2024 13:51:24
+[2025-02-21 08:47:36.385] [I]-[ril.proatc] RDY
+[2025-02-21 08:47:36.385] [I]-[ril.sendat] ATE0
+[2025-02-21 08:47:36.385] ATI
+[2025-02-21 08:47:36.385] [I]-[ril.proatc] ATE0
+[2025-02-21 08:47:36.385] [I]-[ril.defurc] ATE0
+[2025-02-21 08:47:36.526] ATI
+[2025-02-21 08:47:36.526] 
+[2025-02-21 08:47:36.526] LuatOS-Air_V4029_RDA8910_RFTIPMSTSVT_0x70000
+[2025-02-21 08:47:36.526] 
+[2025-02-21 08:47:36.526] OK
+[2025-02-21 08:47:36.526] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.526] [I]-[ril.defrsp] AT+CMEE=0 true OK nil
+[2025-02-21 08:47:36.526] [I]-[ril.sendat] AT+WISN?
+[2025-02-21 08:47:36.526] [I]-[ril.proatc] 48421562385037
+[2025-02-21 08:47:36.526] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.526] [I]-[ril.sendat] AT+CGSN
+[2025-02-21 08:47:36.526] [I]-[ril.proatc] 863013073558115
+[2025-02-21 08:47:36.526] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.526] [I]-[ril.sendat] AT+MUID?
+[2025-02-21 08:47:36.526] [I]-[ril.proatc] +MUID: 20241229072430A161000A5706952493
+[2025-02-21 08:47:36.526] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.526] [I]-[ril.sendat] AT*EXINFO?
+[2025-02-21 08:47:36.666] [I]-[ril.proatc] *EXINFO:poweron=3
+[2025-02-21 08:47:36.666] [I]-[ril.defurc] *EXINFO:poweron=3
+[2025-02-21 08:47:36.666] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.666] [I]-[ril.defrsp] AT*EXINFO? true OK nil
+[2025-02-21 08:47:36.666] [I]-[ril.sendat] AT+CGMM
+[2025-02-21 08:47:36.666] [I]-[ril.proatc] +CGMM: "Air724UG"
+[2025-02-21 08:47:36.666] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.666] [I]-[ril.sendat] AT+CMIC=2,1
+[2025-02-21 08:47:36.666] AT+CGSN
+[2025-02-21 08:47:36.666] 
+[2025-02-21 08:47:36.666] 863013073558115
+[2025-02-21 08:47:36.666] 
+[2025-02-21 08:47:36.666] OK
+[2025-02-21 08:47:36.666] [I]-[ril.proatc] ERROR
+[2025-02-21 08:47:36.666] [I]-[ril.sendat] ATX4
+[2025-02-21 08:47:36.666] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.666] [I]-[ril.defrsp] ATX4 true OK nil
+[2025-02-21 08:47:36.666] [I]-[ril.sendat] AT+CLIP=1
+[2025-02-21 08:47:36.666] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.666] [I]-[ril.defrsp] AT+CLIP=1 true OK nil
+[2025-02-21 08:47:36.666] [I]-[ril.sendat] ATS7=60
+[2025-02-21 08:47:36.666] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.666] [I]-[ril.defrsp] ATS7=60 true OK nil
+[2025-02-21 08:47:36.729] [I]-[ril.sendat] AT+SETVOLTE=1
+[2025-02-21 08:47:36.729] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.729] [I]-[ril.defrsp] AT+SETVOLTE=1 true OK nil
+[2025-02-21 08:47:36.729] [I]-[ril.sendat] AT+SIMCROSS?
+[2025-02-21 08:47:36.760] [I]-[ril.proatc] +SIMCROSS:0
+[2025-02-21 08:47:36.760] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.760] [I]-[ril.sendat] AT+COPS?
+[2025-02-21 08:47:36.791] [I]-[ril.proatc] +COPS: 0
+[2025-02-21 08:47:36.791] [I]-[cops] nil nil nil
+[2025-02-21 08:47:36.791] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.791] [I]-[ril.defrsp] AT+COPS? true OK nil
+[2025-02-21 08:47:36.791] [I]-[ril.sendat] AT+CREG=2
+[2025-02-21 08:47:36.823] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.823] [I]-[ril.defrsp] AT+CREG=2 true OK nil
+[2025-02-21 08:47:36.823] [I]-[ril.sendat] AT+CGREG=2
+[2025-02-21 08:47:36.823] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.853] [I]-[ril.defrsp] AT+CGREG=2 true OK nil
+[2025-02-21 08:47:36.853] [I]-[ril.sendat] AT+CEREG=2
+[2025-02-21 08:47:36.853] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.853] [I]-[ril.defrsp] AT+CEREG=2 true OK nil
+[2025-02-21 08:47:36.853] [I]-[ril.sendat] AT+CREG?
+[2025-02-21 08:47:36.885] [I]-[ril.proatc] +CREG: 2,0,"0000","00000000",0
+[2025-02-21 08:47:36.885] [I]-[net.creg1] 0 +CREG: 
+[2025-02-21 08:47:36.885] [I]-[net.creg7] 0 0
+[2025-02-21 08:47:36.885] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.885] [I]-[ril.defrsp] AT+CREG? true OK nil
+[2025-02-21 08:47:36.885] [I]-[ril.sendat] AT+CGREG?
+[2025-02-21 08:47:36.931] [I]-[ril.proatc] +CGREG: 2,0,"0000","00000000"
+[2025-02-21 08:47:36.931] [I]-[net.creg1] 0 +CREG: 
+[2025-02-21 08:47:36.931] [I]-[net.creg7] 0 nil
+[2025-02-21 08:47:36.931] [I]-[net.creg9 ignore!!!]
+[2025-02-21 08:47:36.931] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.931] [I]-[ril.defrsp] AT+CGREG? true OK nil
+[2025-02-21 08:47:36.931] [I]-[ril.sendat] AT+CEREG?
+[2025-02-21 08:47:36.978] [I]-[ril.proatc] +CEREG: 2,0,"0000","00000000",0,0,0
+[2025-02-21 08:47:36.978] [I]-[net.creg1] 0 +CREG: 
+[2025-02-21 08:47:36.978] [W]-[net.creg1] no match +CEREG: 2,0,"0000","00000000",0,0,0
+[2025-02-21 08:47:36.978] [I]-[ril.proatc] OK
+[2025-02-21 08:47:36.978] [I]-[ril.defrsp] AT+CEREG? true OK nil
+[2025-02-21 08:47:36.978] [I]-[ril.sendat] AT+CALIBINFO?
+[2025-02-21 08:47:36.978] [I]-[ril.proatc] GSM_CALIBINFO: GSM_afc:0, GSM850_agc:0, GSM850_apc:0, GSM900_agc:0, GSM900_apc:0, DCS1800_agc:0,DCS1800_apc:0,
+[2025-02-21 08:47:36.978]  PCS1900_agc:0, PCS1900_apc:0, GSM_FT:0, GSM_ANT:0 
+[2025-02-21 08:47:36.978] [I]-[ril.proatc] LTE_CALIBINFO: LTE_afc:1, LTE_TDD_agc:1, LTE_TDD_apc:1, LTE_FDD_agc:1, LTE_FDD_apc:1, FINAL_LTE:1, ANT_LTE:0
+[2025-02-21 08:47:37.025] [I]-[ril.proatc] OK
+[2025-02-21 08:47:37.025] [I]-[ril.sendat] AT*BAND?
+[2025-02-21 08:47:37.025] [I]-[ril.proatc] ERROR
+[2025-02-21 08:47:37.025] [I]-[ril.defrsp] AT*BAND? false ERROR nil
+[2025-02-21 08:47:37.025] [I]-[ril.sendat] AT+EEMOPT=1
+[2025-02-21 08:47:37.025] [I]-[ril.proatc] OK
+[2025-02-21 08:47:37.072] [I]-[ril.sendat] AT+CIND=1
+[2025-02-21 08:47:37.072] [I]-[ril.proatc] OK
+[2025-02-21 08:47:37.072] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:47:37.103] [I]-[ril.proatc] +RFTEMPERATURE: 31.98
+[2025-02-21 08:47:37.103] [I]-[ril.proatc] OK
+[2025-02-21 08:47:37.103] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:47:37.103] [I]-[ril.proatc] +CSQ: 99,99
+[2025-02-21 08:47:37.103] [I]-[ril.proatc] OK
+[2025-02-21 08:47:37.149] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:47:37.149] [I]-[ril.proatc] +CESQ: 99,99,255,255,255,255
+[2025-02-21 08:47:37.149] [I]-[ril.proatc] OK
+[2025-02-21 08:47:37.149] [I]-[ril.sendat] AT+EEMGINFO?
+[2025-02-21 08:47:37.196] [I]-[ril.proatc] +EEMGINFO: 3, 0
+[2025-02-21 08:47:37.196] [I]-[ril.defurc] +EEMGINFO: 3, 0
+[2025-02-21 08:47:37.196] [I]-[ril.proatc] OK
+[2025-02-21 08:47:37.196] [I]-[ril.defrsp] AT+EEMGINFO? true OK nil
+[2025-02-21 08:47:37.196] [I]-[ril.sendat] AT+RNDISCALL=0,0
+[2025-02-21 08:47:37.196] [I]-[ril.proatc] +EEMGINFOSVC: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 0, 0, 0 0, 0, 65535, 0, 0, 0, 0, 0, 65535, 0, 0, 0, 0, 0, 0, 0
+[2025-02-21 08:47:37.196] , 0, 0, 0, 0, 0, 0
+[2025-02-21 08:47:37.196] 
+[2025-02-21 08:47:37.196] +EEMGINFOSVC: 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 31, 0, 0, 0 0, 0, 65535, 0, 0, 0, 0, 0, 65535, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0
+[2025-02-21 08:47:37.196] 
+[2025-02-21 08:47:37.243] [I]-[ril.proatc] OK
+[2025-02-21 08:47:37.243] [I]-[ril.defrsp] AT+RNDISCALL=0,0 true OK nil
+[2025-02-21 08:47:37.243] [I]-[ril.sendat] AT*SIMAUTO=1
+[2025-02-21 08:47:37.243] [I]-[ril.proatc] OK
+[2025-02-21 08:47:37.243] [I]-[ril.defrsp] AT*SIMAUTO=1 true OK nil
+[2025-02-21 08:47:37.243] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:47:37.290] [I]-[ril.proatc] +CSQ: 99,99
+[2025-02-21 08:47:37.290] [I]-[ril.proatc] OK
+[2025-02-21 08:47:37.290] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:47:37.290] [I]-[ril.proatc] +CESQ: 99,99,255,255,255,255
+[2025-02-21 08:47:37.322] [I]-[ril.proatc] OK
+[2025-02-21 08:47:37.322] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:47:37.322] [I]-[ril.proatc] +CSQ: 99,99
+[2025-02-21 08:47:37.322] [I]-[ril.proatc] OK
+[2025-02-21 08:47:37.322] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:47:37.368] [I]-[ril.proatc] +CESQ: 99,99,255,255,255,255
+[2025-02-21 08:47:37.368] [I]-[ril.proatc] OK
+[2025-02-21 08:47:37.368] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:47:37.399] [I]-[ril.proatc] +CSQ: 99,99
+[2025-02-21 08:47:37.399] [I]-[ril.proatc] OK
+[2025-02-21 08:47:37.399] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:47:37.399] [I]-[ril.proatc] +CESQ: 99,99,255,255,255,255
+[2025-02-21 08:47:37.399] [I]-[ril.proatc] OK
+[2025-02-21 08:47:38.167] [I]-[ril.proatc] +CPIN: READY
+[2025-02-21 08:47:38.177] [I]-[ril.sendat] AT+ICCID
+[2025-02-21 08:47:38.177] [I]-[SIM.subscribe] nil RDY
+[2025-02-21 08:47:38.177] 
+[2025-02-21 08:47:38.177] +CPIN: READY
+[2025-02-21 08:47:38.177] [I]-[ril.proatc] ^CARDMODE: 0
+[2025-02-21 08:47:38.177] [I]-[ril.defurc] ^CARDMODE: 0
+[2025-02-21 08:47:38.177] 
+[2025-02-21 08:47:38.177] ^CARDMODE: 0
+[2025-02-21 08:47:38.324] [I]-[ril.proatc] +ICCID: 89860324743156515061
+[2025-02-21 08:47:38.324] [I]-[ril.proatc] OK
+[2025-02-21 08:47:38.324] [I]-[ril.sendat] AT+CIMI
+[2025-02-21 08:47:38.433] [I]-[ril.proatc] 460115771286982
+[2025-02-21 08:47:38.433] [I]-[ril.proatc] OK
+[2025-02-21 08:47:38.442] [I]-[ril.sendat] AT+CNUM
+[2025-02-21 08:47:39.346] [I]-[usbmsc.mscTask] usb storage free size: 78336/82432B
+[2025-02-21 08:47:39.346] 
+[2025-02-21 08:47:39.346] +CPIN: READY
+[2025-02-21 08:47:39.346] 
+[2025-02-21 08:47:39.346] ^CARDMODE: 2
+[2025-02-21 08:47:39.394] [I]-[ril.proatc] +CNUM: "","13313295853",129
+[2025-02-21 08:47:39.394] [I]-[ril.proatc] OK
+[2025-02-21 08:47:39.394] [I]-[ril.sendat] AT+CNUM
+[2025-02-21 08:47:39.394] [I]-[ril.proatc] +CPIN: READY
+[2025-02-21 08:47:39.394] [I]-[ril.proatc] ^CARDMODE: 2
+[2025-02-21 08:47:39.394] [I]-[ril.defurc] ^CARDMODE: 2
+[2025-02-21 08:47:39.394] [I]-[SIM.subscribe] false RDY
+[2025-02-21 08:47:39.661] [I]-[ril.proatc] +CNUM: "","13313295853",129
+[2025-02-21 08:47:39.661] [I]-[ril.proatc] OK
+[2025-02-21 08:47:39.661] [I]-[ril.sendat] AT+ICCID
+[2025-02-21 08:47:41.142] 
+[2025-02-21 08:47:41.142] +CREG: 1,"52ce","06446af1",7
+[2025-02-21 08:47:41.142] 
+[2025-02-21 08:47:41.142] ^MODE: 17,17
+[2025-02-21 08:47:41.142] 
+[2025-02-21 08:47:41.142] 
+[2025-02-21 08:47:41.142] +CEREG: 1,"52ce","06446af1",7
+[2025-02-21 08:47:41.205] 
+[2025-02-21 08:47:41.205] +NITZ: 25/02/21,00:47:40+32,0
+[2025-02-21 08:47:41.330] 
+[2025-02-21 08:47:41.330] *CGEV: ACT,5,"ctnet.mnc011.mcc460.gprs","10.2.199.184"
+[2025-02-21 08:47:42.180] 
+[2025-02-21 08:47:42.180] SMS READY
+[2025-02-21 08:47:42.903] [I]-[ril.proatc] +ICCID: 89860324743156515061
+[2025-02-21 08:47:42.903] [I]-[ril.proatc] OK
+[2025-02-21 08:47:42.903] [I]-[ril.sendat] AT+CIMI
+[2025-02-21 08:47:42.903] [I]-[ril.proatc] +CREG: 1,"52ce","06446af1",7
+[2025-02-21 08:47:42.903] [I]-[net.creg1] 0 +CREG: 
+[2025-02-21 08:47:42.903] [I]-[net.creg7] 1 7
+[2025-02-21 08:47:42.903] [I]-[net.UpdNetMode] nil 0 17 17
+[2025-02-21 08:47:42.903] [I]-[net.NET_UPD_NET_MODE] 4
+[2025-02-21 08:47:42.903] [I]-[ril.proatc] ^MODE: 17,17
+[2025-02-21 08:47:42.903] [I]-[net.UpdNetMode] nil 4 17 17
+[2025-02-21 08:47:42.903] [I]-[ril.proatc] +CEREG: 1,"52ce","06446af1",7
+[2025-02-21 08:47:42.903] [I]-[net.creg1] 4 +CEREG: 
+[2025-02-21 08:47:42.903] [I]-[net.creg7] 1 7
+[2025-02-21 08:47:42.903] [I]-[net.UpdNetMode] nil 4 17 17
+[2025-02-21 08:47:42.903] [I]-[ril.proatc] +NITZ: 25/02/21,00:47:40+32,0
+[2025-02-21 08:47:42.966] [I]-[ril.defurc] +NITZ: 25/02/21,00:47:40+32,0
+[2025-02-21 08:47:42.966] [I]-[ril.proatc] *CGEV: ACT,5,"ctnet.mnc011.mcc460.gprs","10.2.199.184"
+[2025-02-21 08:47:42.966] [I]-[link.cgevurc] *CGEV: ACT,5,"ctnet.mnc011.mcc460.gprs","10.2.199.184"
+[2025-02-21 08:47:42.966] [I]-[ril.proatc] SMS READY
+[2025-02-21 08:47:42.966] [I]-[link.Pdp_Act] false 4 nil
+[2025-02-21 08:47:42.966] [I]-[ril.proatc] 460115771286982
+[2025-02-21 08:47:42.966] [I]-[ril.proatc] OK
+[2025-02-21 08:47:42.966] [I]-[ril.sendat] AT+CNUM
+[2025-02-21 08:47:43.044] [I]-[ril.proatc] +CNUM: "","13313295853",129
+[2025-02-21 08:47:43.044] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.044] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:47:43.054] [I]-[ril.proatc] +CSQ: 25,99
+[2025-02-21 08:47:43.054] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.054] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:47:43.062] [I]-[ril.proatc] +CESQ: 99,99,255,255,20,52
+[2025-02-21 08:47:43.062] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.062] [I]-[ril.sendat] AT+EEMGINFO?
+[2025-02-21 08:47:43.122] [I]-[ril.proatc] +EEMGINFO: 3, 2
+[2025-02-21 08:47:43.122] [I]-[ril.defurc] +EEMGINFO: 3, 2
+[2025-02-21 08:47:43.122] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.122] [I]-[ril.defrsp] AT+EEMGINFO? true OK nil
+[2025-02-21 08:47:43.122] [I]-[ril.sendat] AT+COPS?
+[2025-02-21 08:47:43.265] [I]-[ril.proatc] +COPS: 0,2,"46011",7
+[2025-02-21 08:47:43.265] [I]-[cops] 2 46011 nil
+[2025-02-21 08:47:43.272] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.272] [I]-[ril.defrsp] AT+COPS? true OK nil
+[2025-02-21 08:47:43.272] [I]-[ril.sendat] AT+CEREG?
+[2025-02-21 08:47:43.272] [I]-[ril.proatc] +CEREG: 2,1,"52ce","06446af1",7
+[2025-02-21 08:47:43.272] [I]-[net.creg1] 4 +CEREG: 
+[2025-02-21 08:47:43.272] [I]-[net.creg7] 1 7
+[2025-02-21 08:47:43.272] [I]-[net.UpdNetMode] nil 4 17 17
+[2025-02-21 08:47:43.288] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.288] [I]-[ril.defrsp] AT+CEREG? true OK nil
+[2025-02-21 08:47:43.288] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:47:43.327] [I]-[ril.proatc] +CSQ: 25,99
+[2025-02-21 08:47:43.327] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.327] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:47:43.358] [I]-[ril.proatc] +CESQ: 99,99,255,255,20,52
+[2025-02-21 08:47:43.358] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.358] [I]-[ril.sendat] AT+CGDCONT?
+[2025-02-21 08:47:43.388] [I]-[ril.proatc] +CGDCONT: 5,"IPV4V6","ctnet","IPV4:10.2.199.184    IPV6:::1",0,0
+[2025-02-21 08:47:43.388] [I]-[link.pdpCmdCnf] AT+CGDCONT? true OK +CGDCONT: 5,"IPV4V6","ctnet","IPV4:10.2.199.184    IPV6:::1",0,0
+[2025-02-21 08:47:43.388] [I]-[analysis_cgdcont end] +CGDCONT: 5,"IPV4V6","ctnet","IPV4:10.2.199.184    IPV6:::1",0,0 nil nil
+[2025-02-21 08:47:43.388] [I]-[analysis_cgdcont ] 5 "IPV4V6" "ctnet" IPV4:10.2.199.184    IPV6:::1
+[2025-02-21 08:47:43.388] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.388] [I]-[link.pdpCmdCnf] CONNECT_DELAY true nil nil
+[2025-02-21 08:47:43.388] [I]-[publish IP_READY_IND]
+[2025-02-21 08:47:43.388] [I]-[ril.sendat] AT+CMGF=0
+[2025-02-21 08:47:43.388] [I]-[util_notify.add] ÃÌº”µΩœ˚œ¢∂”¡–, µ±«∞∂”¡–≥§∂»: 1
+[2025-02-21 08:47:43.388] [I]-[util_ntp.sync] ø™ ºÕ¨≤Ω
+[2025-02-21 08:47:43.435] [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 UDP time1.aliyun.com 123 nil 120
+[2025-02-21 08:47:43.435] [I]-[util_notify.poll] ¬÷—Øœ˚œ¢∂”¡–÷–, µ±«∞∂”¡–≥§∂»: 1
+[2025-02-21 08:47:43.435] [I]-[util_notify.send] ∑¢ÀÕÕ®÷™ custom_post
+[2025-02-21 08:47:43.435] [I]-[util_notify] POST http://www.xuqingkai.com/4gsms application/json {"title":"4gsms","contents":"#BOOT_3\n\n±æª˙∫≈¬Î: 13
+[2025-02-21 08:47:43.435] 313295853\nø™ª˙ ±≥§: 00:00:11\n‘À”™…Ã: ÷–π˙µÁ–≈\n–≈∫≈: -88dBm\nŒ¬∂»: 31.98°Ê\nµÁ—π: 3.828V"}
+[2025-02-21 08:47:43.435] [I]-[util_http.fetch] ø™ º«Î«Û id: http_c1
+[2025-02-21 08:47:43.435] [I]-[http path] /4gsms
+[2025-02-21 08:47:43.435] [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 1 TCP www.xuqingkai.com 80 nil 30
+[2025-02-21 08:47:43.435] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.435] [I]-[ril.defrsp] AT+CMGF=0 true OK nil
+[2025-02-21 08:47:43.482] [I]-[ril.sendat] AT+CSCS="UCS2"
+[2025-02-21 08:47:43.482] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.482] [I]-[ril.defrsp] AT+CSCS="UCS2" true OK nil
+[2025-02-21 08:47:43.482] [I]-[ril.sendat] AT+CPMS="SM"
+[2025-02-21 08:47:43.513] [I]-[ril.proatc] +CPMS: 0,40,0,40,0,40
+[2025-02-21 08:47:43.513] [I]-[ril.defurc] +CPMS: 0,40,0,40,0,40
+[2025-02-21 08:47:43.513] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.513] [I]-[ril.defrsp] AT+CPMS="SM" true OK nil
+[2025-02-21 08:47:43.513] [I]-[ril.sendat] AT+CNMI=2,1,0,0,0
+[2025-02-21 08:47:43.513] [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+[2025-02-21 08:47:43.513] [I]-[socket:connect: connect ok]
+[2025-02-21 08:47:43.513] [I]-[socket:on_response:] 0 SOCKET_SEND 0
+[2025-02-21 08:47:43.560] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.560] [I]-[ril.defrsp] AT+CNMI=2,1,0,0,0 true OK nil
+[2025-02-21 08:47:43.560] [I]-[ril.sendat] AT+CMGD=1,3
+[2025-02-21 08:47:43.560] [I]-[socket:sock_close] 0
+[2025-02-21 08:47:43.560] [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+[2025-02-21 08:47:43.560] [I]-[ntp.timeSync is date:] 2025/2/21,8:47:43
+[2025-02-21 08:47:43.605] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.605] [I]-[lib_sms rsp] +CMGD AT+CMGD=1,3 true OK nil
+[2025-02-21 08:47:43.605] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:47:43.605] [I]-[ril.proatc] +CSQ: 25,99
+[2025-02-21 08:47:43.605] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.605] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:47:43.652] [I]-[ril.proatc] +CESQ: 99,99,255,255,20,52
+[2025-02-21 08:47:43.652] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.652] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:47:43.683] [I]-[ril.proatc] +RFTEMPERATURE: 35.47
+[2025-02-21 08:47:43.683] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.683] [I]-[ril.sendat] AT+CCLK="25/02/21,08:47:43+32"
+[2025-02-21 08:47:43.683] [I]-[ril.proatc] OK
+[2025-02-21 08:47:43.683] [I]-[util_ntp.sync] Õ¨≤ΩÕÍ≥…,  ±º‰’˝≥£
+[2025-02-21 08:47:43.793] [I]-[socket:on_response:] 1 SOCKET_CONNECT 0
+[2025-02-21 08:47:43.793] [I]-[socket:connect: connect ok]
+[2025-02-21 08:47:43.856] [I]-[socket:on_response:] 1 SOCKET_SEND 0
+[2025-02-21 08:47:44.360] [I]-[ril.proatc] +EEMLTESVC: 1120, 2, 17, 21198, 181, 2452, 2452, 5, 3, 105147121, 2, 54, 20, 8, 54, 20, 54, 20, 65535, 0, 0, 0
+[2025-02-21 08:47:44.360] , 0, 0, 0, 0, 65535, 0, 0, 0
+[2025-02-21 08:47:44.360] [I]-[eemLteSvc1] 21198 105147121  1120 17
+[2025-02-21 08:47:44.360] 
+[2025-02-21 08:47:44.360] +EEMLTESVC: 1120, 2, 17, 21198, 181, 2452, 2452, 5, 3, 105147121, 2, 54, 20, 8, 54, 20, 54, 20, 65535, 0, 0, 0, 0, 0, 0, 0, 65535, 0, 0, 0
+[2025-02-21 08:47:44.360] 
+[2025-02-21 08:47:44.360] +EEMLTEINTRA:0,0,210,51,14,1120,17,21198,105147123
+[2025-02-21 08:47:44.360] 
+[2025-02-21 08:47:44.360] +EEMLTEINTER:0,0,312,65,31,1120,17,21207,104899716
+[2025-02-21 08:47:44.360] 
+[2025-02-21 08:47:44.360] +EEMLTEINTER:1,0,197,49,22,1120,1,21207,108134789
+[2025-02-21 08:47:48.736] [I]-[socket:sock_close] 1
+[2025-02-21 08:47:48.736] [I]-[util_notify.send] ∑¢ÀÕÕ®÷™≥…π¶ code: 200 body: 
+[2025-02-21 08:47:48.736] [I]-[audio.play] 3 FILE /lua/audio_http_success.mp3 1 nil nil nil
+[2025-02-21 08:47:48.736] [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+[2025-02-21 08:47:48.736] [I]-[audioTask] FILE #audioQueue 1
+[2025-02-21 08:47:48.878] [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+[2025-02-21 08:47:48.878] [I]-[socket:on_response:] 1 SOCKET_CLOSE 0
+[2025-02-21 08:47:50.703] [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND RESULT true
+[2025-02-21 08:47:50.734] [I]-[audio.handlePlayInd] RESULT true
+[2025-02-21 08:47:50.734] [I]-[audio.handleCb] nil 0
+[2025-02-21 08:47:50.740] [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+[2025-02-21 08:48:06.246] [I]-[ril.sendat] AT+CNMI=2,1,0,0,0
+[2025-02-21 08:48:06.253] [I]-[ril.proatc] OK
+[2025-02-21 08:48:06.253] [I]-[ril.defrsp] AT+CNMI=2,1,0,0,0 true OK nil
+[2025-02-21 08:48:17.711] [I]-[ril.proatc] +CIEV: "MESSAGE",1
+[2025-02-21 08:48:17.711] 
+[2025-02-21 08:48:17.711] +CIEV: "MESSAGE",1
+[2025-02-21 08:48:17.711] [I]-[ril.proatc] +CMTI: "SM",1
+[2025-02-21 08:48:17.711] [I]-[ril.sendat] AT+CMGR=1
+[2025-02-21 08:48:17.711] 
+[2025-02-21 08:48:17.711] +CMTI: "SM",1
+[2025-02-21 08:48:17.884] [I]-[ril.proatc] +CMGR: 0,,139
+[2025-02-21 08:48:17.884] [I]-[ril.proatc] OK
+[2025-02-21 08:48:17.884] [I]-[lib_sms rsp] +CMGR AT+CMGR=1 true OK +CMGR: 0,,139
+[2025-02-21 08:48:17.884] 09A164000339341002F0040FA101964055221081F60008522012808441237630108054901A4E9176D830119A8C8BC17801FF1A0031003900310038003800320
+[2025-02-21 08:48:17.884] 02C8BF7572800355206949F51854F7F75283002672C9A8C8BC1780153EA75284E8E8054901A4E9176D88D2653F764CD4F5CFF0C4E3A4E8660A876848D2653F7
+[2025-02-21 08:48:17.884] 5B895168FF0C8BF752FF8F6C53D162166CC497323002
+[2025-02-21 08:48:17.884] [I]-[TP-PID : ] 0 dcs:  8 tz:  52201280844123 data:  30108054901A4E9176D830119A8C8BC17801FF1A003100390031003800380032002C8BF757
+[2025-02-21 08:48:17.884] 2800355206949F51854F7F75283002672C9A8C8BC1780153EA75284E8E8054901A4E9176D88D2653F764CD4F5CFF0C4E3A4E8660A876848D2653F75B895168F
+[2025-02-21 08:48:17.884] F0C8BF752FF8F6C53D162166CC497323002 txtlen 118
+[2025-02-21 08:48:17.884] [I]-[ril.sendat] AT+CMGD=1
+[2025-02-21 08:48:17.884] [I]-[handler_sms.smsCallback] 106904552201186 25/02/21,08:48:14+32 „ÄêËÅîÈÄö‰∫ëÁõò„ÄëÈ™åËØÅÁ†ÅÔºö191882,ËØ∑Âú®5ÂàÜÈíüÂÜÖ‰ΩøÁî®„
+[2025-02-21 08:48:17.884] ÄÇÊú¨È™åËØÅÁ†ÅÂè™Áî®‰∫éËÅîÈÄö‰∫ëÁõòË¥¶Âè∑Êìç‰ΩúÔºå‰∏∫‰∫ÜÊÇ®ÁöÑË¥¶Âè∑ÂÆâÂÖ®ÔºåËØ∑ÂãøËΩ¨ÂèëÊàñÊ≥ÑÈú≤„ÄÇ
+[2025-02-21 08:48:17.884] [I]-[usbmsc.write] usb storage free size: 78336/82432B
+[2025-02-21 08:48:17.947] [I]-[usbmsc.write] io.opendir 1
+[2025-02-21 08:48:18.009] [I]-[usbmsc.write] io.writeFile /usbmsc0/sms_history.txt true
+[2025-02-21 08:48:18.009] [I]-[util_notify.add] Ê∑ªÂä†Âà∞Ê∂àÊÅØÈòüÂàó, ÂΩìÂâçÈòüÂàóÈïøÂ∫¶: 1
+[2025-02-21 08:48:18.009] [I]-[handler_sms.smsContentMatcher] ÈùûÁôΩÂêçÂçïÂè∑Á†Å
+[2025-02-21 08:48:18.009] [I]-[audio.play] 4 FILE /lua/audio_new_sms.mp3 1 nil nil nil
+[2025-02-21 08:48:18.009] [I]-[util_notify.poll] ËΩÆËØ¢Ê∂àÊÅØÈòüÂàó‰∏≠, ÂΩìÂâçÈòüÂàóÈïøÂ∫¶: 1
+[2025-02-21 08:48:18.009] [I]-[util_notify.send] ÂèëÈÄÅÈÄöÁü• custom_post
+[2025-02-21 08:48:18.009] [I]-[util_notify] POST http://www.xuqingkai.com/4gsms application/json {"title":"4gsms","contents":"„ÄêËÅîÈÄö‰∫ëÁõò„ÄëÈ™åËØÅÁ†Å
+[2025-02-21 08:48:18.009] Ôºö191882,ËØ∑Âú®5ÂàÜÈíüÂÜÖ‰ΩøÁî®„ÄÇÊú¨È™åËØÅÁ†ÅÂè™Áî®‰∫éËÅîÈÄö‰∫ëÁõòË¥¶Âè∑Êìç‰ΩúÔºå‰∏∫‰∫ÜÊÇ®ÁöÑË¥¶Âè∑ÂÆâÂÖ®ÔºåËØ∑ÂãøËΩ¨ÂèëÊàñÊ≥
+[2025-02-21 08:48:18.009] ÑÈú≤„ÄÇ\n\nÂèë‰ª∂Âè∑Á†Å: 106904552201186\nÂèë‰ª∂Êó∂Èó¥: 25\/02\/21,08:48:14+32\n#SMS\n\nÊú¨Êú∫Âè∑Á†Å: 13313295853\nÂºÄÊú∫Êó∂Èïø
+[2025-02-21 08:48:18.038] : 00:00:45\n‘À”™…Ã: ÷–π˙µÁ–≈\n–≈∫≈: -88dBm\n∆µ∂Œ: B5\nŒ¬∂»: 35.47°Ê\nµÁ—π: 3.827V"}
+[2025-02-21 08:48:18.038] [I]-[util_http.fetch] ø™ º«Î«Û id: http_c2
+[2025-02-21 08:48:18.038] [I]-[http path] /4gsms
+[2025-02-21 08:48:18.038] [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCP www.xuqingkai.com 80 nil 30
+[2025-02-21 08:48:18.038] [I]-[audioTask] FILE #audioQueue 1
+[2025-02-21 08:48:18.167] [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+[2025-02-21 08:48:18.167] [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+[2025-02-21 08:48:18.167] [I]-[socket:connect: connect ok]
+[2025-02-21 08:48:18.177] [I]-[ril.proatc] OK
+[2025-02-21 08:48:18.177] [I]-[lib_sms rsp] +CMGD AT+CMGD=1 true OK nil
+[2025-02-21 08:48:18.177] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:48:18.213] [I]-[socket:on_response:] 0 SOCKET_SEND 0
+[2025-02-21 08:48:18.213] [I]-[ril.proatc] +RFTEMPERATURE: 35.70
+[2025-02-21 08:48:18.245] [I]-[ril.proatc] OK
+[2025-02-21 08:48:19.501] [I]-[ril.proatc] +CIEV: "MESSAGE",1
+[2025-02-21 08:48:19.501] 
+[2025-02-21 08:48:19.501] +CIEV: "MESSAGE",1
+[2025-02-21 08:48:19.501] [I]-[ril.proatc] +CMTI: "SM",1
+[2025-02-21 08:48:19.501] [I]-[ril.sendat] AT+CMGR=1
+[2025-02-21 08:48:19.501] 
+[2025-02-21 08:48:19.501] +CMTI: "SM",1
+[2025-02-21 08:48:19.675] [I]-[ril.proatc] +CMGR: 0,,139
+[2025-02-21 08:48:19.675] [I]-[ril.proatc] OK
+[2025-02-21 08:48:19.675] [I]-[lib_sms rsp] +CMGR AT+CMGR=1 true OK +CMGR: 0,,139
+[2025-02-21 08:48:19.675] 09A164000339341002F0040FA101964055221081F60008522012808461237630108054901A4E9176D830119A8C8BC17801FF1A0038003200360034003200300
+[2025-02-21 08:48:19.675] 02C8BF7572800355206949F51854F7F75283002672C9A8C8BC1780153EA75284E8E8054901A4E9176D88D2653F764CD4F5CFF0C4E3A4E8660A876848D2653F7
+[2025-02-21 08:48:19.675] 5B895168FF0C8BF752FF8F6C53D162166CC497323002
+[2025-02-21 08:48:19.675] [I]-[TP-PID : ] 0 dcs:  8 tz:  52201280846123 data:  30108054901A4E9176D830119A8C8BC17801FF1A003800320036003400320030002C8BF757
+[2025-02-21 08:48:19.675] 2800355206949F51854F7F75283002672C9A8C8BC1780153EA75284E8E8054901A4E9176D88D2653F764CD4F5CFF0C4E3A4E8660A876848D2653F75B895168F
+[2025-02-21 08:48:19.675] F0C8BF752FF8F6C53D162166CC497323002 txtlen 118
+[2025-02-21 08:48:19.675] [I]-[ril.sendat] AT+CMGD=1
+[2025-02-21 08:48:19.675] [I]-[handler_sms.smsCallback] 106904552201186 25/02/21,08:48:16+32 „ÄêËÅîÈÄö‰∫ëÁõò„ÄëÈ™åËØÅÁ†ÅÔºö826420,ËØ∑Âú®5ÂàÜÈíüÂÜÖ‰ΩøÁî®„
+[2025-02-21 08:48:19.675] ÄÇÊú¨È™åËØÅÁ†ÅÂè™Áî®‰∫éËÅîÈÄö‰∫ëÁõòË¥¶Âè∑Êìç‰ΩúÔºå‰∏∫‰∫ÜÊÇ®ÁöÑË¥¶Âè∑ÂÆâÂÖ®ÔºåËØ∑ÂãøËΩ¨ÂèëÊàñÊ≥ÑÈú≤„ÄÇ
+[2025-02-21 08:48:19.738] [I]-[usbmsc.write] usb storage free size: 77824/82432B
+[2025-02-21 08:48:19.738] [I]-[usbmsc.write] io.opendir 1
+[2025-02-21 08:48:19.770] [I]-[usbmsc.write] io.writeFile /usbmsc0/sms_history.txt true
+[2025-02-21 08:48:19.770] [I]-[util_notify.add] ÃÌº”µΩœ˚œ¢∂”¡–, µ±«∞∂”¡–≥§∂»: 1
+[2025-02-21 08:48:19.770] [I]-[handler_sms.smsContentMatcher] ∑«∞◊√˚µ•∫≈¬Î
+[2025-02-21 08:48:19.770] [I]-[audio.play] 4 FILE /lua/audio_new_sms.mp3 1 nil nil nil
+[2025-02-21 08:48:19.770] [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND NEW nil
+[2025-02-21 08:48:19.848] [I]-[audio.handlePlayInd] NEW nil
+[2025-02-21 08:48:19.848] [W]-[audio.handlePlayInd] FILE priority error
+[2025-02-21 08:48:19.848] [I]-[audio.handleCb] nil 4
+[2025-02-21 08:48:19.848] [I]-[audioTask] FILE #audioQueue 1
+[2025-02-21 08:48:19.958] [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+[2025-02-21 08:48:19.958] [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND RESULT true
+[2025-02-21 08:48:20.021] [I]-[audio.handlePlayInd] RESULT true
+[2025-02-21 08:48:20.021] [I]-[audio.handleCb] nil 0
+[2025-02-21 08:48:20.026] [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+[2025-02-21 08:48:20.026] [I]-[ril.proatc] OK
+[2025-02-21 08:48:20.026] [I]-[lib_sms rsp] +CMGD AT+CMGD=1 true OK nil
+[2025-02-21 08:48:20.026] [I]-[audio.play] 5 TTS [n1] ’µΩ¡™Õ®‘∆≈Ã—È÷§¬Î 191882 1 nil nil nil
+[2025-02-21 08:48:20.026] [I]-[audioTask] TTS #audioQueue 1
+[2025-02-21 08:48:20.026] [I]-[audioTask] TTS wait LIB_AUDIO_PLAY_IND
+[2025-02-21 08:48:20.666] [I]-[socket:sock_close] 0
+[2025-02-21 08:48:20.666] [I]-[util_notify.send] ∑¢ÀÕÕ®÷™≥…π¶ code: 200 body: 
+[2025-02-21 08:48:20.666] [I]-[audio.play] 3 FILE /lua/audio_http_success.mp3 1 nil nil nil
+[2025-02-21 08:48:20.666] [W]-[audio.play] priority error
+[2025-02-21 08:48:20.666] [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+[2025-02-21 08:48:20.714] [I]-[util_notify.poll] ËΩÆËØ¢Ê∂àÊÅØÈòüÂàó‰∏≠, ÂΩìÂâçÈòüÂàóÈïøÂ∫¶: 1
+[2025-02-21 08:48:20.714] [I]-[util_notify.send] ÂèëÈÄÅÈÄöÁü• custom_post
+[2025-02-21 08:48:20.714] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:48:20.714] [I]-[util_notify] POST http://www.xuqingkai.com/4gsms application/json {"title":"4gsms","contents":"„ÄêËÅîÈÄö‰∫ëÁõò„ÄëÈ™åËØÅÁ†Å
+[2025-02-21 08:48:20.714] Ôºö826420,ËØ∑Âú®5ÂàÜÈíüÂÜÖ‰ΩøÁî®„ÄÇÊú¨È™åËØÅÁ†ÅÂè™Áî®‰∫éËÅîÈÄö‰∫ëÁõòË¥¶Âè∑Êìç‰ΩúÔºå‰∏∫‰∫ÜÊÇ®ÁöÑË¥¶Âè∑ÂÆâÂÖ®ÔºåËØ∑ÂãøËΩ¨ÂèëÊàñÊ≥
+[2025-02-21 08:48:20.714] ÑÈú≤„ÄÇ\n\nÂèë‰ª∂Âè∑Á†Å: 106904552201186\nÂèë‰ª∂Êó∂Èó¥: 25\/02\/21,08:48:16+32\n#SMS\n\nÊú¨Êú∫Âè∑Á†Å: 13313295853\nÂºÄÊú∫Êó∂Èïø
+[2025-02-21 08:48:20.714] : 00:00:48\nËøêËê•ÂïÜ: ‰∏≠ÂõΩÁîµ‰ø°\n‰ø°Âè∑: -88dBm\nÈ¢ëÊÆµ: B5\nÊ∏©Â∫¶: 35.70‚ÑÉ\nÁîµÂéã: 3.827V"}
+[2025-02-21 08:48:20.714] [I]-[util_http.fetch] ÂºÄÂßãËØ∑Ê±Ç id: http_c3
+[2025-02-21 08:48:20.714] [I]-[http path] /4gsms
+[2025-02-21 08:48:20.761] [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCP www.xuqingkai.com 80 nil 30
+[2025-02-21 08:48:20.761] [I]-[ril.proatc] +RFTEMPERATURE: 36.67
+[2025-02-21 08:48:20.761] [I]-[ril.proatc] OK
+[2025-02-21 08:48:20.793] [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+[2025-02-21 08:48:20.793] [I]-[socket:connect: connect ok]
+[2025-02-21 08:48:20.856] [I]-[socket:on_response:] 0 SOCKET_SEND 0
+[2025-02-21 08:48:21.770] [I]-[audio.play] 5 TTS [n1] ’µΩ¡™Õ®‘∆≈Ã—È÷§¬Î 826420 1 nil nil nil
+[2025-02-21 08:48:21.770] [I]-[audioTask] TTS recv LIB_AUDIO_PLAY_IND NEW nil
+[2025-02-21 08:48:21.833] [I]-[rtos.MSG_TTSPLY_STATUS]
+[2025-02-21 08:48:21.833] [I]-[audio.handlePlayInd] NEW nil
+[2025-02-21 08:48:21.833] [W]-[audio.handlePlayInd] TTS priority error
+[2025-02-21 08:48:21.833] [I]-[audio.handleCb] nil 4
+[2025-02-21 08:48:21.833] [I]-[audioTask] TTS #audioQueue 1
+[2025-02-21 08:48:21.843] [I]-[audioTask] TTS wait LIB_AUDIO_PLAY_IND
+[2025-02-21 08:48:24.414] [I]-[socket:sock_close] 0
+[2025-02-21 08:48:24.445] [I]-[util_notify.send] ∑¢ÀÕÕ®÷™≥…π¶ code: 200 body: 
+[2025-02-21 08:48:24.445] [I]-[audio.play] 3 FILE /lua/audio_http_success.mp3 1 nil nil nil
+[2025-02-21 08:48:24.445] [W]-[audio.play] priority error
+[2025-02-21 08:48:24.445] [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+[2025-02-21 08:48:25.107] [I]-[rtos.MSG_TTSPLY_STATUS]
+[2025-02-21 08:48:25.107] [I]-[audioTask] TTS recv LIB_AUDIO_PLAY_IND RESULT true
+[2025-02-21 08:48:25.107] [I]-[audio.handlePlayInd] RESULT true
+[2025-02-21 08:48:25.139] [I]-[audio.handleCb] nil 0
+[2025-02-21 08:48:25.139] [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+[2025-02-21 08:48:36.337] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:48:36.341] [I]-[ril.proatc] +RFTEMPERATURE: 37.16
+[2025-02-21 08:48:36.341] [I]-[ril.proatc] OK
+[2025-02-21 08:48:36.341] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:48:36.349] [I]-[ril.proatc] +CSQ: 26,99
+[2025-02-21 08:48:36.349] [I]-[ril.proatc] OK
+[2025-02-21 08:48:36.355] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:48:36.414] [I]-[ril.proatc] +CESQ: 99,99,255,255,22,55
+[2025-02-21 08:48:36.414] [I]-[ril.proatc] OK
+[2025-02-21 08:49:36.334] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:49:36.334] [I]-[ril.proatc] +RFTEMPERATURE: 33.13
+[2025-02-21 08:49:36.334] [I]-[ril.proatc] OK
+[2025-02-21 08:49:36.366] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:49:36.366] [I]-[ril.proatc] +CSQ: 26,99
+[2025-02-21 08:49:36.366] [I]-[ril.proatc] OK
+[2025-02-21 08:49:36.366] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:49:36.397] [I]-[ril.proatc] +CESQ: 99,99,255,255,21,55
+[2025-02-21 08:49:36.397] [I]-[ril.proatc] OK
+[2025-02-21 08:50:36.315] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:50:36.320] [I]-[ril.proatc] +RFTEMPERATURE: 32.91
+[2025-02-21 08:50:36.320] [I]-[ril.proatc] OK
+[2025-02-21 08:50:36.320] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:50:36.347] [I]-[ril.proatc] +CSQ: 26,99
+[2025-02-21 08:50:36.347] [I]-[ril.proatc] OK
+[2025-02-21 08:50:36.378] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:50:36.410] [I]-[ril.proatc] +CESQ: 99,99,255,255,22,55
+[2025-02-21 08:50:36.410] [I]-[ril.proatc] OK
+[2025-02-21 08:51:36.293] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:51:36.340] [I]-[ril.proatc] +RFTEMPERATURE: 32.84
+[2025-02-21 08:51:36.340] [I]-[ril.proatc] OK
+[2025-02-21 08:51:36.340] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:51:36.387] [I]-[ril.proatc] +CSQ: 26,99
+[2025-02-21 08:51:36.387] [I]-[ril.proatc] OK
+[2025-02-21 08:51:36.387] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:51:36.387] [I]-[ril.proatc] +CESQ: 99,99,255,255,21,54
+[2025-02-21 08:51:36.387] [I]-[ril.proatc] OK
+[2025-02-21 08:52:36.308] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:52:36.308] [I]-[ril.proatc] +RFTEMPERATURE: 32.91
+[2025-02-21 08:52:36.308] [I]-[ril.proatc] OK
+[2025-02-21 08:52:36.355] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:52:36.355] [I]-[ril.proatc] +CSQ: 27,99
+[2025-02-21 08:52:36.355] [I]-[ril.proatc] OK
+[2025-02-21 08:52:36.355] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:52:36.387] [I]-[ril.proatc] +CESQ: 99,99,255,255,22,57
+[2025-02-21 08:52:36.387] [I]-[ril.proatc] OK
+[2025-02-21 08:53:26.362] [I]-[ril.proatc] RING
+[2025-02-21 08:53:26.362] [I]-[audio.play] 4 FILE /lua/audio_ring.mp3 1 nil nil nil
+[2025-02-21 08:53:26.362] [I]-[audioTask] FILE #audioQueue 1
+[2025-02-21 08:53:26.362] 
+[2025-02-21 08:53:26.362] RING
+[2025-02-21 08:53:26.362] 
+[2025-02-21 08:53:26.362] +CLIP: "19236251604",129,,,,0
+[2025-02-21 08:53:26.503] [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+[2025-02-21 08:53:26.503] [I]-[ril.proatc] +CLIP: "19236251604",129,,,,0
+[2025-02-21 08:53:26.503] [I]-[ril.sendat] AT+CLCC
+[2025-02-21 08:53:26.513] [I]-[ril.proatc] +CLCC: 1,1,4,0,0,"19236251604",129
+[2025-02-21 08:53:26.513] [I]-[ril.proatc] OK
+[2025-02-21 08:53:26.612] [I]-[ril.sendat] AT+CMIC=2,7
+[2025-02-21 08:53:26.612] [I]-[handler_call.updateAudioConfig] is_call_connected: false
+[2025-02-21 08:53:26.612] [I]-[handler_call.updateAudioConfig] output_channel: 2 input_channel: 0
+[2025-02-21 08:53:26.612] [I]-[handler_call.updateAudioConfig] audio_volume: 1 call_volume: 7 mic_volume: 7
+[2025-02-21 08:53:26.612] [I]-[handler_call.updateAudioConfig] getVolume:1 getCallVolume:7 getMicVolume:1
+[2025-02-21 08:53:26.612] [I]-[handler_call.callIncomingCallback] ¿¥µÁ∂Ø◊˜ Œﬁ≤Ÿ◊˜
+[2025-02-21 08:53:26.612] [I]-[util_notify.add] ÃÌº”µΩœ˚œ¢∂”¡–, µ±«∞∂”¡–≥§∂»: 1
+[2025-02-21 08:53:26.612] [I]-[util_notify.poll] ¬÷—Øœ˚œ¢∂”¡–÷–, µ±«∞∂”¡–≥§∂»: 1
+[2025-02-21 08:53:26.612] [I]-[util_notify.send] ∑¢ÀÕÕ®÷™ custom_post
+[2025-02-21 08:53:26.658] [I]-[util_notify] POST http://www.xuqingkai.com/4gsms application/json {"title":"4gsms","contents":"¿¥µÁ∫≈¬Î: 19236251604\n
+[2025-02-21 08:53:26.658] ¿¥µÁ∂Ø◊˜: Œﬁ≤Ÿ◊˜\n\n#CALL #CALL_IN\n\n±æª˙∫≈¬Î: 13313295853\nø™ª˙ ±≥§: 00:05:54\n‘À”™…Ã: ÷–π˙µÁ–≈\n–≈∫≈
+[2025-02-21 08:53:26.658] : -83dBm\n∆µ∂Œ: B5\nŒ¬∂»: 32.91°Ê\nµÁ—π: 3.827V"}
+[2025-02-21 08:53:26.658] [I]-[util_http.fetch] ø™ º«Î«Û id: http_c4
+[2025-02-21 08:53:26.658] [I]-[http path] /4gsms
+[2025-02-21 08:53:26.658] [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCP www.xuqingkai.com 80 nil 30
+[2025-02-21 08:53:26.658] [I]-[ril.proatc] ERROR
+[2025-02-21 08:53:26.658] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:53:26.705] [I]-[ril.proatc] +RFTEMPERATURE: 35.86
+[2025-02-21 08:53:26.705] [I]-[ril.proatc] OK
+[2025-02-21 08:53:26.705] [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+[2025-02-21 08:53:26.705] [I]-[socket:connect: connect ok]
+[2025-02-21 08:53:26.768] [I]-[socket:on_response:] 0 SOCKET_SEND 0
+[2025-02-21 08:53:27.330] [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND RESULT true
+[2025-02-21 08:53:27.393] [I]-[audio.handlePlayInd] RESULT true
+[2025-02-21 08:53:27.393] [I]-[audio.handleCb] nil 0
+[2025-02-21 08:53:27.393] [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+[2025-02-21 08:53:31.296] [I]-[socket:sock_close] 0
+[2025-02-21 08:53:31.296] [I]-[util_notify.send] ∑¢ÀÕÕ®÷™≥…π¶ code: 200 body: 
+[2025-02-21 08:53:31.296] [I]-[util_audio.play] ’˝‘⁄Õ®ª∞÷–, ≤ª≤•∑≈
+[2025-02-21 08:53:31.296] [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+[2025-02-21 08:53:32.374] [I]-[ril.proatc] RING
+[2025-02-21 08:53:32.374] [I]-[audio.play] 4 FILE /lua/audio_ring.mp3 1 nil nil nil
+[2025-02-21 08:53:32.374] [I]-[audioTask] FILE #audioQueue 1
+[2025-02-21 08:53:32.374] 
+[2025-02-21 08:53:32.374] RING
+[2025-02-21 08:53:32.513] [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+[2025-02-21 08:53:33.334] [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND RESULT true
+[2025-02-21 08:53:33.398] [I]-[audio.handlePlayInd] RESULT true
+[2025-02-21 08:53:33.398] [I]-[audio.handleCb] nil 0
+[2025-02-21 08:53:33.398] [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+[2025-02-21 08:53:36.069] [I]-[keyMsg] 255 255 true
+[2025-02-21 08:53:36.288] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:53:36.319] [I]-[ril.proatc] +RFTEMPERATURE: 37.37
+[2025-02-21 08:53:36.319] [I]-[ril.proatc] OK
+[2025-02-21 08:53:36.319] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:53:36.350] [I]-[ril.proatc] +CSQ: 25,99
+[2025-02-21 08:53:36.350] [I]-[ril.proatc] OK
+[2025-02-21 08:53:36.350] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:53:36.350] [I]-[ril.proatc] +CESQ: 99,99,255,255,20,51
+[2025-02-21 08:53:36.350] [I]-[ril.proatc] OK
+[2025-02-21 08:53:36.555] [I]-[keypad.longtimercb]
+[2025-02-21 08:53:38.386] [I]-[ril.proatc] RING
+[2025-02-21 08:53:38.386] [I]-[audio.play] 4 FILE /lua/audio_ring.mp3 1 nil nil nil
+[2025-02-21 08:53:38.386] [I]-[audioTask] FILE #audioQueue 1
+[2025-02-21 08:53:38.386] 
+[2025-02-21 08:53:38.386] RING
+[2025-02-21 08:53:38.497] [I]-[audioTask] FILE wait LIB_AUDIO_PLAY_IND
+[2025-02-21 08:53:39.318] [I]-[audioTask] FILE recv LIB_AUDIO_PLAY_IND RESULT true
+[2025-02-21 08:53:39.381] [I]-[audio.handlePlayInd] RESULT true
+[2025-02-21 08:53:39.381] [I]-[audio.handleCb] nil 0
+[2025-02-21 08:53:39.381] [I]-[audioTask] wait LIB_AUDIO_PLAY_ENTRY
+[2025-02-21 08:53:43.702] [I]-[keyMsg] 255 255 false
+[2025-02-21 08:53:43.702] [I]-[handler_powerkey]  ÷∂ØΩ”Ã˝
+[2025-02-21 08:53:43.702] [I]-[audio.stop] nil
+[2025-02-21 08:53:43.702] [I]-[ril.sendat] ATA
+[2025-02-21 08:53:43.843] [I]-[ril.proatc] OK
+[2025-02-21 08:53:43.843] [I]-[ril.sendat] AT+CLCC
+[2025-02-21 08:53:43.851] [I]-[ril.proatc] +CLCC: 1,1,4,0,0,"19236251604",129
+[2025-02-21 08:53:43.851] [I]-[ril.proatc] OK
+[2025-02-21 08:53:43.856] [I]-[ril.sendat] AT+CMIC=2,7
+[2025-02-21 08:53:43.856] [I]-[handler_call.updateAudioConfig] is_call_connected: false
+[2025-02-21 08:53:43.856] [I]-[handler_call.updateAudioConfig] output_channel: 2 input_channel: 0
+[2025-02-21 08:53:43.856] [I]-[handler_call.updateAudioConfig] audio_volume: 1 call_volume: 7 mic_volume: 7
+[2025-02-21 08:53:43.856] [I]-[handler_call.updateAudioConfig] getVolume:1 getCallVolume:7 getMicVolume:1
+[2025-02-21 08:53:43.856] [I]-[handler_call.callIncomingCallback] ¿¥µÁ∂Ø◊˜ Œﬁ≤Ÿ◊˜
+[2025-02-21 08:53:43.856] [I]-[util_notify.add] ÃÌº”µΩœ˚œ¢∂”¡–, µ±«∞∂”¡–≥§∂»: 1
+[2025-02-21 08:53:43.871] [I]-[util_notify.poll] ¬÷—Øœ˚œ¢∂”¡–÷–, µ±«∞∂”¡–≥§∂»: 1
+[2025-02-21 08:53:43.871] [I]-[util_notify.send] ∑¢ÀÕÕ®÷™ custom_post
+[2025-02-21 08:53:43.876] [I]-[util_notify] POST http://www.xuqingkai.com/4gsms application/json {"title":"4gsms","contents":"¿¥µÁ∫≈¬Î: 19236251604\n
+[2025-02-21 08:53:43.876] ¿¥µÁ∂Ø◊˜: Œﬁ≤Ÿ◊˜\n\n#CALL #CALL_IN\n\n±æª˙∫≈¬Î: 13313295853\nø™ª˙ ±≥§: 00:06:11\n‘À”™…Ã: ÷–π˙µÁ–≈\n–≈∫≈
+[2025-02-21 08:53:43.876] : -89dBm\n∆µ∂Œ: B5\nŒ¬∂»: 37.37°Ê\nµÁ—π: 3.826V"}
+[2025-02-21 08:53:43.876] [I]-[util_http.fetch] ø™ º«Î«Û id: http_c5
+[2025-02-21 08:53:43.876] [I]-[http path] /4gsms
+[2025-02-21 08:53:43.876] [I]-[socket:connect-coreid,prot,addr,port,cert,timeout] 0 TCP www.xuqingkai.com 80 nil 30
+[2025-02-21 08:53:43.922] [I]-[ril.proatc] ERROR
+[2025-02-21 08:53:43.954] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:53:43.954] [I]-[socket:on_response:] 0 SOCKET_CONNECT 0
+[2025-02-21 08:53:43.954] [I]-[socket:connect: connect ok]
+[2025-02-21 08:53:43.954] [I]-[ril.proatc] +RFTEMPERATURE: 38.17
+[2025-02-21 08:53:43.954] [I]-[ril.proatc] OK
+[2025-02-21 08:53:43.986] [I]-[socket:on_response:] 0 SOCKET_SEND 0
+[2025-02-21 08:53:44.237] [I]-[ril.proatc] +CIEV: "CALL",1
+[2025-02-21 08:53:44.237] 
+[2025-02-21 08:53:44.237] +CIEV: "CALL",1
+[2025-02-21 08:53:44.237] [I]-[ril.proatc] CONNECT
+[2025-02-21 08:53:44.237] [I]-[audio.stop] nil
+[2025-02-21 08:53:44.237] [I]-[ril.sendat] AT+CLCC
+[2025-02-21 08:53:44.237] 
+[2025-02-21 08:53:44.237] CONNECT
+[2025-02-21 08:53:44.260] [I]-[ril.proatc] +CLCC: 1,1,0,0,0,"19236251604",129
+[2025-02-21 08:53:44.260] [I]-[ril.proatc] OK
+[2025-02-21 08:53:44.260] [I]-[handler_call.callConnectedCallback] 19236251604
+[2025-02-21 08:53:44.267] [I]-[ril.sendat] AT+CMIC=2,7
+[2025-02-21 08:53:44.267] [I]-[handler_call.updateAudioConfig] is_call_connected: true
+[2025-02-21 08:53:44.267] [I]-[handler_call.updateAudioConfig] output_channel: 2 input_channel: 0
+[2025-02-21 08:53:44.267] [I]-[handler_call.updateAudioConfig] audio_volume: 1 call_volume: 7 mic_volume: 7
+[2025-02-21 08:53:44.267] [I]-[handler_call.updateAudioConfig] getVolume:1 getCallVolume:7 getMicVolume:1
+[2025-02-21 08:53:44.267] [I]-[audio.stop] nil
+[2025-02-21 08:53:44.300] [I]-[ril.proatc] ERROR
+[2025-02-21 08:53:44.300] [I]-[ril.sendat] AT+CACCP=5,1,0,07000F00
+[2025-02-21 08:53:44.332] [I]-[ril.proatc] +CACCP: 
+[2025-02-21 08:53:44.332] [I]-[ril.defurc] +CACCP: 
+[2025-02-21 08:53:44.332] [I]-[ril.proatc] OK
+[2025-02-21 08:53:44.332] [I]-[ril.defrsp] AT+CACCP=5,1,0,07000F00 true OK nil
+[2025-02-21 08:53:44.332] [I]-[ril.sendat] AT+CACCP=0,1,0,07000F00
+[2025-02-21 08:53:44.380] [I]-[ril.proatc] ERROR 62
+[2025-02-21 08:53:44.380] [I]-[ril.defurc] ERROR 62
+[2025-02-21 08:53:44.380] [I]-[ril.proatc] ERROR
+[2025-02-21 08:53:44.380] [I]-[ril.defrsp] AT+CACCP=0,1,0,07000F00 false ERROR nil
+[2025-02-21 08:53:45.291] [I]-[handler_call.tts] TTS ≤•∑≈ø™ º
+[2025-02-21 08:53:45.291] [I]-[handler_call.tts] ¿¥µÁ∂Ø◊˜: Œﬁ∂Ø◊˜, ≤ª≤•∑≈ TTS
+[2025-02-21 08:53:46.396] [I]-[socket:sock_close] 0
+[2025-02-21 08:53:46.396] [I]-[util_notify.send] ∑¢ÀÕÕ®÷™≥…π¶ code: 200 body: 
+[2025-02-21 08:53:46.396] [I]-[util_audio.play] ’˝‘⁄Õ®ª∞÷–, ≤ª≤•∑≈
+[2025-02-21 08:53:46.396] [I]-[socket:on_response:] 0 SOCKET_CLOSE 0
+[2025-02-21 08:53:50.504] [I]-[ril.proatc] +CIEV: "CALL",0
+[2025-02-21 08:53:50.504] 
+[2025-02-21 08:53:50.504] +CIEV: "CALL",0
+[2025-02-21 08:53:50.504] [I]-[ril.proatc] +CIEV: "SOUNDER",0
+[2025-02-21 08:53:50.504] 
+[2025-02-21 08:53:50.504] +CIEV: "SOUNDER",0
+[2025-02-21 08:53:50.584] [I]-[ril.proatc] NO CARRIER
+[2025-02-21 08:53:50.584] [I]-[ril.sendat] AT+CLCC
+[2025-02-21 08:53:50.584] 
+[2025-02-21 08:53:50.584] NO CARRIER
+[2025-02-21 08:53:50.584] [I]-[ril.proatc] *CGEV: DEACT,6
+[2025-02-21 08:53:50.584] [I]-[link.cgevurc] *CGEV: DEACT,6
+[2025-02-21 08:53:50.584] 
+[2025-02-21 08:53:50.584] *CGEV: DEACT,6
+[2025-02-21 08:53:50.609] [I]-[ril.proatc] OK
+[2025-02-21 08:53:50.609] [I]-[handler_call.callDisconnectedCallback] π“∂œ‘≠“Ú: NO CARRIER
+[2025-02-21 08:53:50.609] [I]-[audio.stop] function: 0x80eb1558
+[2025-02-21 08:53:50.609] [I]-[handler_call.callDisconnectedCallback] audio.stop() callback result: 0
+[2025-02-21 08:53:50.609] [I]-[ril.sendat] AT+CMIC=2,7
+[2025-02-21 08:53:50.609] [I]-[handler_call.updateAudioConfig] is_call_connected: false
+[2025-02-21 08:53:50.609] [I]-[handler_call.updateAudioConfig] output_channel: 2 input_channel: 0
+[2025-02-21 08:53:50.609] [I]-[handler_call.updateAudioConfig] audio_volume: 1 call_volume: 7 mic_volume: 7
+[2025-02-21 08:53:50.609] [I]-[handler_call.updateAudioConfig] getVolume:1 getCallVolume:7 getMicVolume:1
+[2025-02-21 08:53:50.630] [I]-[ril.proatc] ERROR
+[2025-02-21 08:54:36.268] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:54:36.275] [I]-[ril.proatc] +RFTEMPERATURE: 34.48
+[2025-02-21 08:54:36.275] [I]-[ril.proatc] OK
+[2025-02-21 08:54:36.275] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:54:36.348] [I]-[ril.proatc] +CSQ: 28,99
+[2025-02-21 08:54:36.348] [I]-[ril.proatc] OK
+[2025-02-21 08:54:36.348] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:54:36.359] [I]-[ril.proatc] +CESQ: 99,99,255,255,22,58
+[2025-02-21 08:54:36.359] [I]-[ril.proatc] OK
+[2025-02-21 08:55:36.274] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:55:36.305] [I]-[ril.proatc] +RFTEMPERATURE: 33.92
+[2025-02-21 08:55:36.305] [I]-[ril.proatc] OK
+[2025-02-21 08:55:36.305] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:55:36.305] [I]-[ril.proatc] +CSQ: 28,99
+[2025-02-21 08:55:36.337] [I]-[ril.proatc] OK
+[2025-02-21 08:55:36.337] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:55:36.337] [I]-[ril.proatc] +CESQ: 99,99,255,255,22,58
+[2025-02-21 08:55:36.337] [I]-[ril.proatc] OK
+[2025-02-21 08:56:36.259] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:56:36.290] [I]-[ril.proatc] +RFTEMPERATURE: 33.62
+[2025-02-21 08:56:36.290] [I]-[ril.proatc] OK
+[2025-02-21 08:56:36.290] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:56:36.321] [I]-[ril.proatc] +CSQ: 27,99
+[2025-02-21 08:56:36.321] [I]-[ril.proatc] OK
+[2025-02-21 08:56:36.321] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:56:36.321] [I]-[ril.proatc] +CESQ: 99,99,255,255,20,55
+[2025-02-21 08:56:36.352] [I]-[ril.proatc] OK
+[2025-02-21 08:57:36.225] [I]-[ril.sendat] AT+EEMGINFO?
+[2025-02-21 08:57:36.256] [I]-[ril.proatc] +EEMGINFO: 3, 2
+[2025-02-21 08:57:36.256] [I]-[ril.defurc] +EEMGINFO: 3, 2
+[2025-02-21 08:57:36.256] [I]-[ril.proatc] OK
+[2025-02-21 08:57:36.256] [I]-[ril.defrsp] AT+EEMGINFO? true OK nil
+[2025-02-21 08:57:36.256] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:57:36.302] [I]-[ril.proatc] +RFTEMPERATURE: 33.57
+[2025-02-21 08:57:36.302] [I]-[ril.proatc] OK
+[2025-02-21 08:57:36.302] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:57:36.302] [I]-[ril.proatc] +CSQ: 25,99
+[2025-02-21 08:57:36.348] [I]-[ril.proatc] OK
+[2025-02-21 08:57:36.348] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:57:36.348] [I]-[ril.proatc] +CESQ: 99,99,255,255,16,50
+[2025-02-21 08:57:36.348] [I]-[ril.proatc] OK
+[2025-02-21 08:57:37.380] [I]-[ril.proatc] +EEMLTESVC: 1120, 2, 17, 21198, 181, 2452, 2452, 5, 3, 105147121, 65535, 50, 20, 7, 50, 20, 50, 20, 65535, 0, 
+[2025-02-21 08:57:37.380] 255, 0, 0, 0, 0, 0, 65535, 0, 0, 0
+[2025-02-21 08:57:37.380] [I]-[eemLteSvc1] 21198 105147121  1120 17
+[2025-02-21 08:57:37.380] 
+[2025-02-21 08:57:37.380] +EEMLTESVC: 1120, 2, 17, 21198, 181, 2452, 2452, 5, 3, 105147121, 65535, 50, 20, 7, 50, 20, 50, 20, 65535, 0, 255, 0, 0, 0, 0, 0, 65535, 0, 0, 0
+[2025-02-21 08:57:37.380] 
+[2025-02-21 08:57:37.380] +EEMLTEINTRA:0,0,210,48,16,1120,17,21198,105147123
+[2025-02-21 08:57:37.380] 
+[2025-02-21 08:57:37.380] +EEMLTEINTER:0,0,312,62,30,1120,17,21207,104899716
+[2025-02-21 08:57:37.380] 
+[2025-02-21 08:57:37.380] +EEMLTEINTER:1,0,145,37,10,1120,17,21207,105148596
+[2025-02-21 08:58:36.236] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:58:36.239] [I]-[ril.proatc] +RFTEMPERATURE: 33.44
+[2025-02-21 08:58:36.239] [I]-[ril.proatc] OK
+[2025-02-21 08:58:36.239] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:58:36.299] [I]-[ril.proatc] +CSQ: 25,99
+[2025-02-21 08:58:36.299] [I]-[ril.proatc] OK
+[2025-02-21 08:58:36.299] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:58:36.309] [I]-[ril.proatc] +CESQ: 99,99,255,255,22,52
+[2025-02-21 08:58:36.309] [I]-[ril.proatc] OK
+[2025-02-21 08:59:36.231] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 08:59:36.263] [I]-[ril.proatc] +RFTEMPERATURE: 33.35
+[2025-02-21 08:59:36.263] [I]-[ril.proatc] OK
+[2025-02-21 08:59:36.263] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 08:59:36.295] [I]-[ril.proatc] +CSQ: 25,99
+[2025-02-21 08:59:36.295] [I]-[ril.proatc] OK
+[2025-02-21 08:59:36.295] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 08:59:36.327] [I]-[ril.proatc] +CESQ: 99,99,255,255,16,50
+[2025-02-21 08:59:36.327] [I]-[ril.proatc] OK
+[2025-02-21 09:00:36.219] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 09:00:36.250] [I]-[ril.proatc] +RFTEMPERATURE: 33.41
+[2025-02-21 09:00:36.250] [I]-[ril.proatc] OK
+[2025-02-21 09:00:36.250] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 09:00:36.282] [I]-[ril.proatc] +CSQ: 25,99
+[2025-02-21 09:00:36.282] [I]-[ril.proatc] OK
+[2025-02-21 09:00:36.282] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 09:00:36.313] [I]-[ril.proatc] +CESQ: 99,99,255,255,16,50
+[2025-02-21 09:00:36.313] [I]-[ril.proatc] OK
+[2025-02-21 09:01:36.210] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 09:01:36.216] [I]-[ril.proatc] +RFTEMPERATURE: 33.31
+[2025-02-21 09:01:36.216] [I]-[ril.proatc] OK
+[2025-02-21 09:01:36.216] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 09:01:36.288] [I]-[ril.proatc] +CSQ: 25,99
+[2025-02-21 09:01:36.288] [I]-[ril.proatc] OK
+[2025-02-21 09:01:36.288] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 09:01:36.288] [I]-[ril.proatc] +CESQ: 99,99,255,255,15,50
+[2025-02-21 09:01:36.288] [I]-[ril.proatc] OK
+[2025-02-21 09:02:36.200] [I]-[ril.sendat] AT+RFTEMPERATURE?
+[2025-02-21 09:02:36.232] [I]-[ril.proatc] +RFTEMPERATURE: 33.31
+[2025-02-21 09:02:36.232] [I]-[ril.proatc] OK
+[2025-02-21 09:02:36.232] [I]-[ril.sendat] AT+CSQ
+[2025-02-21 09:02:36.263] [I]-[ril.proatc] +CSQ: 25,99
+[2025-02-21 09:02:36.263] [I]-[ril.proatc] OK
+[2025-02-21 09:02:36.263] [I]-[ril.sendat] AT+CESQ
+[2025-02-21 09:02:36.311] [I]-[ril.proatc] +CESQ: 99,99,255,255,21,52
+[2025-02-21 09:02:36.311] [I]-[ril.proatc] OK

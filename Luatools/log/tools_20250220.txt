@@ -1,0 +1,379 @@
+2025-02-20 19:08:56.872 core.py:75 INFO 3.0.19 start!
+2025-02-20 19:08:57.098 usb_device.py:343 INFO 本地工具解压开始
+2025-02-20 19:08:57.184 ui_main.py:89 INFO 初始化主界面 (240, 135) (1440, 810)
+2025-02-20 19:08:57.312 ui_main.py:98 INFO 本地编码集gbk
+2025-02-20 19:08:57.335 usb_device.py:2990 INFO usb device ready!
+2025-02-20 19:08:57.373 ui_main.py:293 INFO 当前语言设置: auto
+2025-02-20 19:08:57.374 ui_main.py:302 INFO 选取语言: zh_CN
+2025-02-20 19:08:57.428 usb_device.py:1209 INFO usb device trace
+2025-02-20 19:08:57.446 my_api.py:114 INFO [None, None]
+2025-02-20 19:08:57.446 usb_device.py:3000 INFO enter Trace
+2025-02-20 19:08:57.467 ui_main.py:449 INFO ui start
+2025-02-20 19:08:59.159 usb_device.py:362 INFO 本地工具解压完成
+2025-02-20 19:11:04.018 usb_device.py:2324 INFO search com done!
+2025-02-20 19:11:04.052 ui_main.py:940 INFO None is full or not exsit, create new
+2025-02-20 19:11:04.071 usb_device.py:1717 INFO init stage1 done!
+2025-02-20 19:11:04.467 usb_device.py:1757 INFO init stage2 done!
+2025-02-20 19:11:04.468 usb_device.py:1758 INFO trace ready!
+2025-02-20 19:11:19.530 net_main.py:124 INFO cancel upgrade_run
+2025-02-20 19:11:19.551 net_main.py:376 INFO 使用备用CDN服务器
+2025-02-20 19:17:16.270 ui_project.py:294 INFO 准备下载脚本
+2025-02-20 19:17:16.285 ui_project.py:294 INFO 解析底层固件
+2025-02-20 19:17:16.326 ui_project.py:294 INFO 脚本整理中
+2025-02-20 19:17:16.439 ui_project.py:294 INFO 检查脚本依赖性
+2025-02-20 19:17:16.453 ui_project.py:294 INFO 脚本预处理完成
+2025-02-20 19:17:16.461 lua_script.py:677 INFO 数据大小334620 脚本区大小 458752
+2025-02-20 19:17:16.461 lua_script.py:461 INFO add crc file
+2025-02-20 19:17:16.466 ui_project.py:294 INFO 生成固件中
+2025-02-20 19:17:16.466 ui_project.py:1519 INFO .
+2025-02-20 19:17:16.651 usb_device.py:1209 INFO usb device trace
+2025-02-20 19:17:16.660 usb_device.py:1227 INFO usb device download
+2025-02-20 19:17:16.678 ui_project.py:294 INFO 准备下载，如果超过5秒没有变化，请关闭模块电源
+2025-02-20 19:17:16.696 my_api.py:114 INFO [None, None]
+2025-02-20 19:17:16.697 usb_device.py:3008 INFO quit Trace
+2025-02-20 19:17:16.697 usb_device.py:3010 INFO enter download
+2025-02-20 19:17:16.699 ui_project.py:294 INFO 解析固件中
+2025-02-20 19:17:18.111 ui_project.py:294 INFO 正在尝试重启模块
+2025-02-20 19:17:18.729 usb_device.py:3368 INFO rom on board LuatOS-Air_V4029_RDA8910_RFTIPMSTSVT_0x70000 lua
+2025-02-20 19:17:18.734 usb_device.py:3380 INFO download core_info luatos-air_v4029_rda8910_rftipmstsvt_0x70000
+2025-02-20 19:17:18.831 ui_project.py:294 INFO 模块重启并进入下载模式
+2025-02-20 19:17:18.844 my_api.py:114 INFO [None, None]
+2025-02-20 19:17:19.446 ui_project.py:294 INFO 等待模块USB接入
+2025-02-20 19:17:19.453 usb_device.py:2544 INFO _temp\uis_download\CmdDloader.exe -pac "C:\Users\Administrator\Desktop\air724ug\Luatools\_temp\project\download\temp.pac" -port 12 -c
+2025-02-20 19:17:19.686 usb_device.py:2560 INFO ||*****************************************************************||
+  Pac  : C:\Users\Administrator\Desktop\air724ug\Luatools\_temp\project\download\temp.pac 
+  Port : 12 
+||*****************************************************************||
+
+2025-02-20 19:17:20.009 usb_device.py:2560 INFO 
+Loading pac file ...                                     
+2025-02-20 19:17:20.238 usb_device.py:2560 INFO 
+Load PAC file successfully!                              
+Detecting download device [COM12] ...                    
+2025-02-20 19:17:20.767 usb_device.py:2560 INFO 
+[Com12]                           Waiting                
+[Com12] HOST_FDL                  Connecting             
+2025-02-20 19:17:20.767 usb_device.py:2560 INFO 
+[Com12] HOST_FDL                  Downloading...         ( 14%)( 28%)( 42%)( 57%)( 71%)( 85%)(100%)
+2025-02-20 19:17:20.773 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:17:22.294 usb_device.py:2560 INFO 
+[Com12] HOST_FDL                  Checking baudrate      
+2025-02-20 19:17:22.295 usb_device.py:2560 INFO 
+[Com12] HOST_FDL                  Connecting             
+2025-02-20 19:17:22.295 usb_device.py:2560 INFO 
+[Com12] HOST_FDL                  Change Baud            
+2025-02-20 19:17:22.806 usb_device.py:2560 INFO 
+[Com12] FDL2                      Connecting             
+2025-02-20 19:17:22.806 usb_device.py:2560 INFO 
+[Com12] FDL2                      Change Baud            
+2025-02-20 19:17:22.807 usb_device.py:2560 INFO 
+[Com12] FDL2                      Downloading...         
+2025-02-20 19:17:22.809 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:17:23.257 usb_device.py:2560 INFO 
+[Report] SN: SN2:                                        
+2025-02-20 19:17:23.259 usb_device.py:2560 INFO 
+[Report] SN: SN2:                                        
+2025-02-20 19:17:23.259 usb_device.py:2560 INFO 
+[Com12] _BKF_NV                   Reading Flash          
+2025-02-20 19:17:23.521 usb_device.py:2560 INFO 
+[Com12] BOOTLOADER                Downloading...         
+2025-02-20 19:17:23.523 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:17:23.772 usb_device.py:2560 INFO 
+[Com12] LUA                       Downloading...         
+2025-02-20 19:17:23.774 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:17:24.782 usb_device.py:2560 INFO 
+[Com12] FMT_FSSYS                 Erasing flash          
+2025-02-20 19:17:24.868 usb_device.py:2560 INFO 
+[Com12] FLASH                     Erasing flash          
+2025-02-20 19:17:24.869 usb_device.py:2560 INFO 
+[Com12] NV                        Downloading...         
+2025-02-20 19:17:24.871 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:17:25.111 usb_device.py:2560 INFO 
+[Com12] PREPACK                   Downloading...         
+2025-02-20 19:17:25.114 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:17:25.127 usb_device.py:2560 INFO 
+[Com12] _RESET_                   Reseting               
+2025-02-20 19:17:25.128 usb_device.py:2560 INFO 
+[Com12]DownLoad Passed, Elapsed Times = 4s               
+2025-02-20 19:17:25.233 usb_device.py:1209 INFO usb device trace
+2025-02-20 19:17:25.272 ui_project.py:329 INFO 下载成功
+2025-02-20 19:17:25.529 usb_device.py:3012 INFO quit download
+2025-02-20 19:17:25.530 usb_device.py:3000 INFO enter Trace
+2025-02-20 19:17:25.530 usb_device.py:2312 INFO sleep 3.2046244144439697 sec
+2025-02-20 19:17:25.530 my_api.py:114 INFO [None, None]
+2025-02-20 19:17:25.531 usb_device.py:2316 INFO sleep done
+2025-02-20 19:17:25.635 usb_device.py:2312 INFO sleep 3.0998997688293457 sec
+2025-02-20 19:17:28.734 usb_device.py:2316 INFO sleep done
+2025-02-20 19:17:28.980 usb_device.py:2324 INFO search com done!
+2025-02-20 19:17:28.989 usb_device.py:1717 INFO init stage1 done!
+2025-02-20 19:17:29.876 usb_device.py:1757 INFO init stage2 done!
+2025-02-20 19:17:29.877 usb_device.py:1758 INFO trace ready!
+2025-02-20 19:17:54.965 my_api.py:114 INFO [None, None]
+2025-02-20 19:17:55.135 usb_device.py:1197 ERROR USB 断开连接 COM7 CommError,[WinError 22] 设备不识别此命令。
+2025-02-20 19:17:55.156 usb_device.py:2312 INFO sleep 3.609999895095825 sec
+2025-02-20 19:17:58.778 usb_device.py:2316 INFO sleep done
+2025-02-20 19:17:58.991 usb_device.py:2324 INFO search com done!
+2025-02-20 19:17:59.000 usb_device.py:1717 INFO init stage1 done!
+2025-02-20 19:17:59.535 usb_device.py:1757 INFO init stage2 done!
+2025-02-20 19:17:59.536 usb_device.py:1758 INFO trace ready!
+2025-02-20 19:18:14.800 my_api.py:114 INFO [None, None]
+2025-02-20 19:18:14.983 usb_device.py:1197 ERROR USB 断开连接 COM7 CommError,[WinError 22] 设备不识别此命令。
+2025-02-20 19:18:14.985 usb_device.py:2312 INFO sleep 3.609999895095825 sec
+2025-02-20 19:18:18.617 usb_device.py:2316 INFO sleep done
+2025-02-20 19:18:18.805 usb_device.py:2324 INFO search com done!
+2025-02-20 19:18:18.817 usb_device.py:1717 INFO init stage1 done!
+2025-02-20 19:18:19.252 usb_device.py:1757 INFO init stage2 done!
+2025-02-20 19:18:19.253 usb_device.py:1758 INFO trace ready!
+2025-02-20 19:19:04.055 usb_device.py:1197 ERROR USB 断开连接 COM7 CommError,[WinError 22] 设备不识别此命令。
+2025-02-20 19:19:04.059 usb_device.py:2312 INFO sleep 3.609999895095825 sec
+2025-02-20 19:19:07.687 usb_device.py:2316 INFO sleep done
+2025-02-20 19:19:11.482 usb_device.py:2324 INFO search com done!
+2025-02-20 19:19:11.495 usb_device.py:1717 INFO init stage1 done!
+2025-02-20 19:19:12.157 usb_device.py:1757 INFO init stage2 done!
+2025-02-20 19:19:12.158 usb_device.py:1758 INFO trace ready!
+2025-02-20 19:35:59.129 ui_project.py:294 INFO 准备下载脚本
+2025-02-20 19:35:59.134 ui_project.py:294 INFO 解析底层固件
+2025-02-20 19:35:59.161 ui_project.py:294 INFO 脚本整理中
+2025-02-20 19:35:59.283 ui_project.py:294 INFO 检查脚本依赖性
+2025-02-20 19:35:59.287 ui_project.py:294 INFO 脚本预处理完成
+2025-02-20 19:35:59.295 lua_script.py:677 INFO 数据大小334642 脚本区大小 458752
+2025-02-20 19:35:59.295 lua_script.py:461 INFO add crc file
+2025-02-20 19:35:59.297 ui_project.py:294 INFO 生成固件中
+2025-02-20 19:35:59.298 ui_project.py:1519 INFO .
+2025-02-20 19:36:00.079 usb_device.py:1209 INFO usb device trace
+2025-02-20 19:36:00.100 usb_device.py:1227 INFO usb device download
+2025-02-20 19:36:00.100 my_api.py:114 INFO [None, None]
+2025-02-20 19:36:00.101 usb_device.py:3008 INFO quit Trace
+2025-02-20 19:36:00.101 usb_device.py:3010 INFO enter download
+2025-02-20 19:36:00.103 ui_project.py:294 INFO 准备下载，如果超过5秒没有变化，请关闭模块电源
+2025-02-20 19:36:00.112 ui_project.py:294 INFO 解析固件中
+2025-02-20 19:36:01.532 ui_project.py:294 INFO 正在尝试重启模块
+2025-02-20 19:36:02.154 usb_device.py:3368 INFO rom on board LuatOS-Air_V4029_RDA8910_RFTIPMSTSVT_0x70000 lua
+2025-02-20 19:36:02.155 usb_device.py:3380 INFO download core_info luatos-air_v4029_rda8910_rftipmstsvt_0x70000
+2025-02-20 19:36:02.249 ui_project.py:294 INFO 模块重启并进入下载模式
+2025-02-20 19:36:02.257 my_api.py:114 INFO [None, None]
+2025-02-20 19:36:02.666 ui_project.py:294 INFO 等待模块USB接入
+2025-02-20 19:36:02.679 usb_device.py:2544 INFO _temp\uis_download\CmdDloader.exe -pac "C:\Users\Administrator\Desktop\air724ug\Luatools\_temp\project\download\temp.pac" -port 12 -c
+2025-02-20 19:36:02.789 usb_device.py:2560 INFO ||*****************************************************************||
+  Pac  : C:\Users\Administrator\Desktop\air724ug\Luatools\_temp\project\download\temp.pac 
+  Port : 12 
+||*****************************************************************||
+
+2025-02-20 19:36:03.024 usb_device.py:2560 INFO 
+Loading pac file ...                                     
+2025-02-20 19:36:03.257 usb_device.py:2560 INFO 
+Load PAC file successfully!                              
+Detecting download device [COM12] ...                    
+2025-02-20 19:36:03.792 usb_device.py:2560 INFO 
+[Com12]                           Waiting                
+[Com12] HOST_FDL                  Connecting             
+2025-02-20 19:36:03.792 usb_device.py:2560 INFO 
+[Com12] HOST_FDL                  Downloading...         ( 14%)( 28%)( 42%)( 57%)( 71%)( 85%)(100%)
+2025-02-20 19:36:03.794 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:36:05.325 usb_device.py:2560 INFO 
+[Com12] HOST_FDL                  Checking baudrate      
+2025-02-20 19:36:05.326 usb_device.py:2560 INFO 
+[Com12] HOST_FDL                  Connecting             
+2025-02-20 19:36:05.326 usb_device.py:2560 INFO 
+[Com12] HOST_FDL                  Change Baud            
+2025-02-20 19:36:05.834 usb_device.py:2560 INFO 
+[Com12] FDL2                      Connecting             
+2025-02-20 19:36:05.835 usb_device.py:2560 INFO 
+[Com12] FDL2                      Change Baud            
+2025-02-20 19:36:05.835 usb_device.py:2560 INFO 
+[Com12] FDL2                      Downloading...         
+2025-02-20 19:36:05.837 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:36:06.296 usb_device.py:2560 INFO 
+[Report] SN: SN2:                                        
+2025-02-20 19:36:06.298 usb_device.py:2560 INFO 
+[Report] SN: SN2:                                        
+2025-02-20 19:36:06.298 usb_device.py:2560 INFO 
+[Com12] _BKF_NV                   Reading Flash          
+2025-02-20 19:36:06.565 usb_device.py:2560 INFO 
+[Com12] BOOTLOADER                Downloading...         
+2025-02-20 19:36:06.567 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:36:06.813 usb_device.py:2560 INFO 
+[Com12] LUA                       Downloading...         
+2025-02-20 19:36:06.815 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:36:07.802 usb_device.py:2560 INFO 
+[Com12] FMT_FSSYS                 Erasing flash          
+2025-02-20 19:36:07.916 usb_device.py:2560 INFO 
+[Com12] FLASH                     Erasing flash          
+2025-02-20 19:36:07.917 usb_device.py:2560 INFO 
+[Com12] NV                        Downloading...         
+2025-02-20 19:36:07.919 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:36:08.155 usb_device.py:2560 INFO 
+[Com12] PREPACK                   Downloading...         
+2025-02-20 19:36:08.158 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:36:08.217 usb_device.py:2560 INFO 
+[Com12] _RESET_                   Reseting               
+2025-02-20 19:36:08.223 usb_device.py:2560 INFO 
+[Com12]DownLoad Passed, Elapsed Times = 4s               
+2025-02-20 19:36:08.330 usb_device.py:1209 INFO usb device trace
+2025-02-20 19:36:08.398 ui_project.py:329 INFO 下载成功
+2025-02-20 19:36:08.692 usb_device.py:3012 INFO quit download
+2025-02-20 19:36:08.692 usb_device.py:3000 INFO enter Trace
+2025-02-20 19:36:08.692 usb_device.py:2312 INFO sleep 3.131903648376465 sec
+2025-02-20 19:36:08.693 my_api.py:114 INFO [None, None]
+2025-02-20 19:36:08.693 usb_device.py:2316 INFO sleep done
+2025-02-20 19:36:08.803 usb_device.py:2312 INFO sleep 3.020202398300171 sec
+2025-02-20 19:36:11.838 usb_device.py:2316 INFO sleep done
+2025-02-20 19:36:12.087 usb_device.py:2324 INFO search com done!
+2025-02-20 19:36:12.093 usb_device.py:1717 INFO init stage1 done!
+2025-02-20 19:36:12.965 usb_device.py:1757 INFO init stage2 done!
+2025-02-20 19:36:12.966 usb_device.py:1758 INFO trace ready!
+2025-02-20 19:51:32.541 ui_project.py:294 INFO 准备下载脚本
+2025-02-20 19:51:32.543 ui_project.py:294 INFO 解析底层固件
+2025-02-20 19:51:32.557 ui_project.py:294 INFO 脚本整理中
+2025-02-20 19:51:32.632 ui_project.py:294 INFO 检查脚本依赖性
+2025-02-20 19:51:32.634 ui_project.py:294 INFO 脚本预处理完成
+2025-02-20 19:51:32.639 lua_script.py:677 INFO 数据大小334673 脚本区大小 458752
+2025-02-20 19:51:32.640 lua_script.py:461 INFO add crc file
+2025-02-20 19:51:32.643 ui_project.py:294 INFO 生成固件中
+2025-02-20 19:51:32.644 ui_project.py:1519 INFO .
+2025-02-20 19:51:32.791 usb_device.py:1209 INFO usb device trace
+2025-02-20 19:51:32.801 usb_device.py:1227 INFO usb device download
+2025-02-20 19:51:32.804 ui_project.py:294 INFO 准备下载，如果超过5秒没有变化，请关闭模块电源
+2025-02-20 19:51:32.826 my_api.py:114 INFO [None, None]
+2025-02-20 19:51:32.827 usb_device.py:3008 INFO quit Trace
+2025-02-20 19:51:32.827 usb_device.py:3010 INFO enter download
+2025-02-20 19:51:32.830 ui_project.py:294 INFO 解析固件中
+2025-02-20 19:51:34.094 ui_project.py:294 INFO 正在尝试重启模块
+2025-02-20 19:51:34.704 usb_device.py:3368 INFO rom on board LuatOS-Air_V4029_RDA8910_RFTIPMSTSVT_0x70000 lua
+2025-02-20 19:51:34.704 usb_device.py:3380 INFO download core_info luatos-air_v4029_rda8910_rftipmstsvt_0x70000
+2025-02-20 19:51:34.799 ui_project.py:294 INFO 模块重启并进入下载模式
+2025-02-20 19:51:34.807 my_api.py:114 INFO [None, None]
+2025-02-20 19:51:35.197 ui_project.py:294 INFO 等待模块USB接入
+2025-02-20 19:51:35.206 usb_device.py:2544 INFO _temp\uis_download\CmdDloader.exe -pac "C:\Users\Administrator\Desktop\air724ug\Luatools\_temp\project\download\temp.pac" -port 12 -c
+2025-02-20 19:51:35.278 usb_device.py:2560 INFO ||*****************************************************************||
+  Pac  : C:\Users\Administrator\Desktop\air724ug\Luatools\_temp\project\download\temp.pac 
+  Port : 12 
+||*****************************************************************||
+
+2025-02-20 19:51:35.617 usb_device.py:2560 INFO 
+Load PAC file successfully!                              
+Detecting download device [COM12] ...                    
+2025-02-20 19:51:36.139 usb_device.py:2560 INFO 
+[Com12]                           Waiting                
+[Com12] HOST_FDL                  Connecting             
+2025-02-20 19:51:36.139 usb_device.py:2560 INFO 
+[Com12] HOST_FDL                  Downloading...         ( 14%)( 28%)( 42%)( 57%)( 71%)( 85%)(100%)
+2025-02-20 19:51:36.141 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:51:37.656 usb_device.py:2560 INFO 
+[Com12] HOST_FDL                  Checking baudrate      
+[Com12] HOST_FDL                  Connecting             
+2025-02-20 19:51:37.657 usb_device.py:2560 INFO 
+[Com12] HOST_FDL                  Change Baud            
+2025-02-20 19:51:38.165 usb_device.py:2560 INFO 
+[Com12] FDL2                      Connecting             
+2025-02-20 19:51:38.166 usb_device.py:2560 INFO 
+[Com12] FDL2                      Change Baud            
+2025-02-20 19:51:38.166 usb_device.py:2560 INFO 
+[Com12] FDL2                      Downloading...         
+2025-02-20 19:51:38.167 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:51:38.602 usb_device.py:2560 INFO 
+[Report] SN: SN2:                                        
+2025-02-20 19:51:38.604 usb_device.py:2560 INFO 
+[Report] SN: SN2:                                        
+2025-02-20 19:51:38.605 usb_device.py:2560 INFO 
+[Com12] _BKF_NV                   Reading Flash          
+2025-02-20 19:51:38.863 usb_device.py:2560 INFO 
+[Com12] BOOTLOADER                Downloading...         
+2025-02-20 19:51:38.867 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:51:39.115 usb_device.py:2560 INFO 
+[Com12] LUA                       Downloading...         
+2025-02-20 19:51:39.118 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:51:40.146 usb_device.py:2560 INFO 
+[Com12] FMT_FSSYS                 Erasing flash          
+2025-02-20 19:51:40.231 usb_device.py:2560 INFO 
+[Com12] FLASH                     Erasing flash          
+2025-02-20 19:51:40.232 usb_device.py:2560 INFO 
+[Com12] NV                        Downloading...         
+2025-02-20 19:51:40.234 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:51:40.455 usb_device.py:2560 INFO 
+[Com12] PREPACK                   Downloading...         
+2025-02-20 19:51:40.457 ui_project.py:294 INFO 正在下载，请勿断电或者断开连接线
+2025-02-20 19:51:40.472 usb_device.py:2560 INFO 
+[Com12] _RESET_                   Reseting               
+2025-02-20 19:51:40.473 usb_device.py:2560 INFO 
+[Com12]DownLoad Passed, Elapsed Times = 4s               
+2025-02-20 19:51:40.580 usb_device.py:1209 INFO usb device trace
+2025-02-20 19:51:40.629 ui_project.py:329 INFO 下载成功
+2025-02-20 19:51:40.884 usb_device.py:3012 INFO quit download
+2025-02-20 19:51:40.884 usb_device.py:3000 INFO enter Trace
+2025-02-20 19:51:40.885 usb_device.py:2312 INFO sleep 3.1958656311035156 sec
+2025-02-20 19:51:40.885 my_api.py:114 INFO [None, None]
+2025-02-20 19:51:40.885 usb_device.py:2316 INFO sleep done
+2025-02-20 19:51:40.986 usb_device.py:2312 INFO sleep 3.094809055328369 sec
+2025-02-20 19:51:44.085 usb_device.py:2316 INFO sleep done
+2025-02-20 19:51:44.298 usb_device.py:2324 INFO search com done!
+2025-02-20 19:51:44.304 usb_device.py:1717 INFO init stage1 done!
+2025-02-20 19:51:45.086 usb_device.py:1757 INFO init stage2 done!
+2025-02-20 19:51:45.087 usb_device.py:1758 INFO trace ready!
+2025-02-20 20:13:26.204 ui_project.py:200 INFO 载入项目文件
+2025-02-20 20:13:26.229 ui_project.py:236 INFO 载入项目文件 - 完成
+2025-02-20 20:15:05.981 core.py:75 INFO 3.0.19 start!
+2025-02-20 20:15:06.241 usb_device.py:343 INFO 本地工具解压开始
+2025-02-20 20:15:06.348 ui_main.py:89 INFO 初始化主界面 (240, 135) (1440, 810)
+2025-02-20 20:15:06.535 ui_main.py:98 INFO 本地编码集gbk
+2025-02-20 20:15:06.550 ui_main.py:293 INFO 当前语言设置: auto
+2025-02-20 20:15:06.550 ui_main.py:302 INFO 选取语言: zh_CN
+2025-02-20 20:15:06.578 usb_device.py:2990 INFO usb device ready!
+2025-02-20 20:15:06.630 usb_device.py:1209 INFO usb device trace
+2025-02-20 20:15:06.646 my_api.py:114 INFO [None, None]
+2025-02-20 20:15:06.647 usb_device.py:3000 INFO enter Trace
+2025-02-20 20:15:06.664 ui_main.py:449 INFO ui start
+2025-02-20 20:15:08.074 usb_device.py:362 INFO 本地工具解压完成
+2025-02-20 20:15:27.755 usb_device.py:1197 ERROR USB 断开连接 COM7 CommError,[WinError 22] 设备不识别此命令。
+2025-02-20 20:15:27.759 usb_device.py:2312 INFO sleep 3.609999895095825 sec
+2025-02-20 20:15:31.373 usb_device.py:2316 INFO sleep done
+2025-02-20 20:15:36.709 usb_device.py:2324 INFO search com done!
+2025-02-20 20:15:36.716 usb_device.py:1717 INFO init stage1 done!
+2025-02-20 20:15:37.208 usb_device.py:1757 INFO init stage2 done!
+2025-02-20 20:15:37.208 usb_device.py:1758 INFO trace ready!
+2025-02-20 20:16:26.887 ui_project.py:200 INFO 载入项目文件
+2025-02-20 20:16:26.915 ui_project.py:236 INFO 载入项目文件 - 完成
+2025-02-20 20:16:57.918 ui_project.py:294 INFO 准备下载脚本
+2025-02-20 20:16:57.921 ui_project.py:294 INFO 解析底层固件
+2025-02-20 20:16:57.948 ui_project.py:294 INFO 脚本整理中
+2025-02-20 20:16:58.033 ui_project.py:294 INFO 检查脚本依赖性
+2025-02-20 20:16:58.036 ui_project.py:294 INFO 脚本预处理完成
+2025-02-20 20:16:58.044 lua_script.py:677 INFO 数据大小334673 脚本区大小 458752
+2025-02-20 20:16:58.044 lua_script.py:461 INFO add crc file
+2025-02-20 20:16:58.046 ui_project.py:294 INFO 生成固件中
+2025-02-20 20:16:58.047 ui_project.py:1519 INFO .
+2025-02-20 20:16:58.195 my_api.py:114 INFO [None, None]
+2025-02-20 20:16:58.195 usb_device.py:1209 INFO usb device trace
+2025-02-20 20:16:58.206 usb_device.py:1227 INFO usb device download
+2025-02-20 20:16:58.206 my_api.py:114 INFO [None, None]
+2025-02-20 20:16:58.207 usb_device.py:3008 INFO quit Trace
+2025-02-20 20:16:58.207 usb_device.py:3010 INFO enter download
+2025-02-20 20:16:58.209 ui_project.py:294 INFO 准备下载，如果超过5秒没有变化，请关闭模块电源
+2025-02-20 20:16:58.210 ui_project.py:294 INFO 解析固件中
+2025-02-20 20:16:59.587 ui_project.py:294 INFO 正在尝试重启模块
+2025-02-20 20:17:14.633 usb_device.py:1187 ERROR 模块重启超时,请重新断电后再上电，当长按开机键看见红灯长亮时，再点击下载按钮
+2025-02-20 20:17:14.683 ui_project.py:302 ERROR 模块重启超时,请重新断电后再上电，当长按开机键看见红灯长亮时，再点击下载按钮
+2025-02-20 20:17:14.690 usb_device.py:1209 INFO usb device trace
+2025-02-20 20:17:14.836 usb_device.py:3012 INFO quit download
+2025-02-20 20:17:14.836 usb_device.py:3000 INFO enter Trace
+2025-02-20 20:17:14.844 my_api.py:114 INFO [None, None]
+2025-02-20 20:18:17.429 usb_device.py:1203 INFO usb device sleep
+2025-02-20 20:18:17.430 my_api.py:114 INFO [None, None]
+2025-02-20 20:18:17.431 my_api.py:114 INFO [None, None]
+2025-02-20 20:18:17.432 usb_device.py:3008 INFO quit Trace
+2025-02-20 20:18:17.538 my_api.py:114 INFO [None, None]
+2025-02-20 20:18:17.538 host_device.py:506 INFO task quit
+2025-02-20 20:18:17.539 my_api.py:114 INFO [None, None]
+2025-02-20 20:18:17.545 usb_device.py:3019 INFO task quit
+2025-02-20 20:18:17.820 core.py:220 INFO event loop closed
+2025-02-20 20:18:18.105 core.py:243 INFO end!
+2025-02-20 20:20:27.571 usb_device.py:1203 INFO usb device sleep
+2025-02-20 20:20:27.572 my_api.py:114 INFO [None, None]
+2025-02-20 20:20:27.597 my_api.py:114 INFO [None, None]
+2025-02-20 20:20:27.599 usb_device.py:3008 INFO quit Trace
+2025-02-20 20:20:27.680 my_api.py:114 INFO [None, None]
+2025-02-20 20:20:27.681 host_device.py:506 INFO task quit
+2025-02-20 20:20:27.681 my_api.py:114 INFO [None, None]
+2025-02-20 20:20:27.681 usb_device.py:3019 INFO task quit
+2025-02-20 20:20:27.954 core.py:220 INFO event loop closed
+2025-02-20 20:20:28.291 core.py:243 INFO end!
