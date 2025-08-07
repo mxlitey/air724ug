@@ -108,7 +108,7 @@ NOTIFY_RETRY_MAX = 100
 -- 关闭所有呼转 CCFC,18888888888
 -- 切换卡槽优先级 SIMSWITCH
 -- SMS_CONTROL_WHITELIST_NUMBERS = { "18xxxxxxx", "18xxxxxxx", "18xxxxxxx" }
-SMS_CONTROL_WHITELIST_NUMBERS = { "18753772527", "17362161049","15689074347","17082975303" }
+SMS_CONTROL_WHITELIST_NUMBERS = {}
 
 -- 扬声器 TTS 播放短信内容, 0:关闭(默认), 1:仅验证码, 2:全部
 SMS_TTS = 1
@@ -118,7 +118,7 @@ SMS_TTS = 1
 
 -- 来电动作, 0:无操作, 1:自动接听(默认), 2:挂断, 3:自动接听后挂断, 4:等待30秒后自动接听
 -- 无操作 / 等待30秒后自动接听, 可以长按 POWERKEY 来手动接听挂断电话
-CALL_IN_ACTION = 0
+CALL_IN_ACTION = 2
 
 -------------------------------------------------- 其他配置 --------------------------------------------------
 
